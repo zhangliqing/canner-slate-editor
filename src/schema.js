@@ -1,7 +1,12 @@
-import React from 'react';
-import {Emoji} from 'emoji-mart';
 import Icons from 'slate-editor-icons';
-const {commonNode, videoNode, imageNode} = Icons.helpers;
+const {
+  commonNode,
+  commonMark,
+  videoNode,
+  imageNode,
+  emojiNode,
+  linkNode
+} = Icons.helpers;
 
 /* eslint-disable react/prop-types, react/display-name */
 export default {
@@ -22,43 +27,16 @@ export default {
     'vimeo': videoNode('vimeo'),
     'youku': videoNode('youku'),
     'image': imageNode(),
-    'link': props => {
-      return (
-        <a {...props.attributes} href={props.node.data.get('url')}>
-          {props.children}
-        </a>
-      );
-    },
-    'emoji': props => {
-      return (
-        <Emoji emoji={props.node.data.get('code').colons} size={18}/>
-      );
-    },
-    // 'table': props => <table><tbody {...props.attributes}>{props.children}</tbody></table>,
-    'table_row': props => <tr {...props.attributes}>{props.children}</tr>,
-    'table_cell': props => <td {...props.attributes}>{props.children}</td>
+    'link': linkNode(),
+    'emoji': emojiNode()
   },
   marks: {
-    bold: ({children}) => <strong>{children}</strong>,
-    code: ({children}) => <code>{children}</code>,
-    italic: ({children}) => <em>{children}</em>,
-    underline: ({children}) => <u>{children}</u>,
-    fontColor: ({children, mark}) => {
-      const color = mark.get('data').get('rgba');
-      return (
-        <span style={{color}}>
-          {children}
-        </span>
-      );
-    },
-    fontBgColor: ({children, mark}) => {
-      const color = mark.get('data').get('rgba');
-      return (
-        <span style={{backgroundColor: color}}>
-          {children}
-        </span>
-      );
-    },
-    strikethrough: ({children}) => <s>{children}</s>
+    bold: commonMark('strong'),
+    code: commonMark('code'),
+    italic: commonMark('em'),
+    underline: commonMark('u'),
+    fontColor: commonMark('span', 'fontColor'),
+    fontBgColor: commonMark('span', 'fontBgColor'),
+    strikethrough: commonMark('s')
   }
 };

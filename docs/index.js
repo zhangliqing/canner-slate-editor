@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import QaEditor from '../src/index';
-import {Raw} from 'slate';
 
-const initialState = Raw.deserialize({
+const initialState = JSON.stringify({
   nodes: [
     {
       kind: 'block',
@@ -16,19 +15,16 @@ const initialState = Raw.deserialize({
       ]
     }
   ]
-}, {terse: true});
+});
 
 class Editor extends Component {
-  // Set the initial state when the app is first constructed.
-  state = {
-    state: initialState
-  }
 
   render() {
-    const onChange = state => this.setState({state});
+    const onChange = json => console.log(json);
+
     return (
       <QaEditor
-        state={this.state.state}
+        state={initialState}
         onChange={onChange}/>
     );
   }

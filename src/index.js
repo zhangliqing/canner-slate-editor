@@ -1,15 +1,9 @@
-/* eslint-disable new-cap */
 import React, {Component, PropTypes} from 'react';
-import {Editor} from 'slate';
+import {Raw} from 'slate';
 import Icons from 'slate-editor-icons';
-import toolbar from 'slate-toolbar';
-import EditList from 'slate-edit-list';
-import EditBlockquote from 'slate-edit-blockquote';
-import TrailingBlock from 'slate-trailing-block';
-import schema from './schema';
+import EditorComponent from './editor';
 
 import styles from "./style/index.scss";
-import "./style/github-markdown.lib.scss";
 
 const icons = [
   Icons.history.Undo,
@@ -31,47 +25,37 @@ const icons = [
   Icons.blocks.UlList
 ];
 
-const LIST_DEFAULT = {
-  typeUL: 'list-ul',
-  typeOL: 'list-ol',
-  typeItem: 'list-item',
-  typeDefault: 'paragraph',
-  ordered: true
-};
-
-const BLOCKQUOTE_DEFAULT = {
-  type: 'blockquote',
-  typeDefault: 'paragraph'
-};
-
-const options = {
-  toolbarMarks: [
-    Icons.marks.Bold,
-    Icons.marks.Italic,
-    Icons.marks.Underline,
-    Icons.marks.Code,
-    Icons.marks.StrikeThrough,
-    Icons.marks.Clean
-  ]
-};
-
-@toolbar(options) // embed a toolbar in editor!
 export default class QaEditor extends Component {
+  constructor(props) {
+    super(props);
+
+    this.onChange = this.onChange.bind(this);
+    this.state = {
+      state: Raw.deserialize(JSON.parse(props.state), {terse: true})
+    };
+  }
+
   static propTypes = {
     onChange: PropTypes.func,
-    state: PropTypes.object
+    state: PropTypes.string
   };
 
+  onChange(state) {
+    this.setState({state});
+    this.props.onChange(JSON.stringify(Raw.serialize(state, {terse: true})));
+  }
+
   render() {
-    const {onChange, state} = this.props;
+    const {state} = this.state;
+
     return (
       <div>
         <div className={styles.topToolbar}>
           {icons.map((Type, i) => {
             return React.createElement(Type, {
               key: i,
-              state: state,
-              onChange: onChange,
+              state,
+              onChange: this.onChange,
               className: styles.topToolbarItem,
               strokeClassName: styles.qlStroke,
               strokeMitterClassName: styles.qlStrokeMitter,
@@ -88,18 +72,9 @@ export default class QaEditor extends Component {
             });
           })}
         </div>
-        <div className={`${styles.editor} qa-editor__html-style`}>
-          <Editor
-            state={state}
-            schema={schema}
-            onChange={onChange}
-            plugins={[
-              EditList(LIST_DEFAULT),
-              EditBlockquote(BLOCKQUOTE_DEFAULT),
-              TrailingBlock({type: 'paragraph'})
-            ]}
-          />
-        </div>
+        <EditorComponent
+          state={state}
+          onChange={this.onChange}/>
       </div>
     );
   }
