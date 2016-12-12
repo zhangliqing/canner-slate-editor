@@ -64,7 +64,7 @@ export default class QaEditor extends Component {
               colorLabelClassName: styles.qlColorLabel,
               thinClassName: styles.qlThin,
               activeStrokeMitterClassName: styles.qlStrokeMitterActive,
-              activeClassName: `${styles.topToolbarItem} ${styles.topToolbarItemActive}`,
+              activeClassName: `${styles.topToolbarItem} ${styles.topToolbarItemActive}`, // eslint-disable-line
               activeStrokeClassName: styles.qlStrokeActive,
               activeFillClassName: styles.qlFillActive,
               activeThinClassName: styles.qlThinActive,
