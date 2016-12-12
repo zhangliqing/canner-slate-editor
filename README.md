@@ -4,16 +4,12 @@
 ## Installation
 
 ```sh
-$ npm install --save qa-editor
+$ npm install --save @canner/qa-editor
 ```
 
 ## Usage
 
-```js
-var qaEditor = require('qa-editor');
-
-qaEditor('Rainbow');
-```
+see https://github.com/Canner/qa-editor/blob/master/docs/index.js
 
 ## Start example server
 
