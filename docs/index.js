@@ -18,14 +18,33 @@ const initialState = JSON.stringify({
 });
 
 class Editor extends Component {
+  constructor(props) {
+    super(props);
+
+    this.onChange = this.onChange.bind(this);
+
+    this.state = {
+      json: initialState
+    };
+  }
+
+  onChange(json) {
+    this.setState({
+      json
+    });
+  }
 
   render() {
-    const onChange = json => console.log(json);
-
     return (
-      <QaEditor
-        state={initialState}
-        onChange={onChange}/>
+      <div>
+        <QaEditor
+          state={initialState}
+          onChange={this.onChange}/>
+        <h1>Slate Object:</h1>
+        <div style={{margin: '20px'}}>
+          {this.state.json}
+        </div>
+      </div>
     );
   }
 }
