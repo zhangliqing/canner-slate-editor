@@ -37,7 +37,8 @@ export default class QaEditor extends Component {
 
   static propTypes = {
     onChange: PropTypes.func,
-    state: PropTypes.string
+    state: PropTypes.string,
+    readOnly: PropTypes.bool
   };
 
   onChange(state) {
@@ -45,34 +46,47 @@ export default class QaEditor extends Component {
     this.props.onChange(JSON.stringify(Raw.serialize(state, {terse: true})));
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.readOnly) {
+      this.setState({
+        state: Raw.deserialize(JSON.parse(nextProps.state), {terse: true})
+      });
+    }
+  }
+
   render() {
     const {state} = this.state;
 
     return (
       <div>
-        <div className={styles.topToolbar}>
-          {icons.map((Type, i) => {
-            return React.createElement(Type, {
-              key: i,
-              state,
-              onChange: this.onChange,
-              className: styles.topToolbarItem,
-              strokeClassName: styles.qlStroke,
-              strokeMitterClassName: styles.qlStrokeMitter,
-              fillClassName: styles.qlFill,
-              evenClassName: styles.qlEven,
-              colorLabelClassName: styles.qlColorLabel,
-              thinClassName: styles.qlThin,
-              activeStrokeMitterClassName: styles.qlStrokeMitterActive,
-              activeClassName: `${styles.topToolbarItem} ${styles.topToolbarItemActive}`, // eslint-disable-line
-              activeStrokeClassName: styles.qlStrokeActive,
-              activeFillClassName: styles.qlFillActive,
-              activeThinClassName: styles.qlThinActive,
-              activeEvenClassName: styles.qlEvenActive
-            });
-          })}
-        </div>
+        {
+          this.props.readOnly ? null : (
+            <div className={styles.topToolbar}>
+              {icons.map((Type, i) => {
+                return React.createElement(Type, {
+                  key: i,
+                  state,
+                  onChange: this.onChange,
+                  className: styles.topToolbarItem,
+                  strokeClassName: styles.qlStroke,
+                  strokeMitterClassName: styles.qlStrokeMitter,
+                  fillClassName: styles.qlFill,
+                  evenClassName: styles.qlEven,
+                  colorLabelClassName: styles.qlColorLabel,
+                  thinClassName: styles.qlThin,
+                  activeStrokeMitterClassName: styles.qlStrokeMitterActive,
+                  activeClassName: `${styles.topToolbarItem} ${styles.topToolbarItemActive}`, // eslint-disable-line
+                  activeStrokeClassName: styles.qlStrokeActive,
+                  activeFillClassName: styles.qlFillActive,
+                  activeThinClassName: styles.qlThinActive,
+                  activeEvenClassName: styles.qlEvenActive
+                });
+              })}
+            </div>
+          )
+        }
         <EditorComponent
+          {...this.props}
           state={state}
           onChange={this.onChange}/>
       </div>

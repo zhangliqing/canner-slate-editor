@@ -44,6 +44,11 @@ class Editor extends Component {
         <div style={{margin: '20px'}}>
           {this.state.json}
         </div>
+        <h2>Preview</h2>
+        <QaEditor
+          readOnly={true}
+          state={this.state.json}
+        />
       </div>
     );
   }

@@ -39,17 +39,21 @@ const BLOCKQUOTE_DEFAULT = {
 export default class EditorComponent extends Component {
   static propTypes = {
     state: PropTypes.object,
-    onChange: PropTypes.func
+    onChange: PropTypes.func,
+    readOnly: PropTypes.bool
   };
 
   render() {
-    const {state, onChange} = this.props;
+    const {state, onChange, readOnly} = this.props;
 
     return (
-      <div className={`${styles.editor} qa-editor__html-style`}>
+      <div className={readOnly ?
+          'qa-editor__html-style' :
+          `${styles.editor} qa-editor__html-style`}>
         <Editor
+          readOnly={readOnly}
           state={state}
-          schema={schema}
+          schema={schema(readOnly)}
           onChange={onChange}
           plugins={[
             EditList(LIST_DEFAULT),
