@@ -40,16 +40,19 @@ export default class EditorComponent extends Component {
   static propTypes = {
     state: PropTypes.object,
     onChange: PropTypes.func,
-    readOnly: PropTypes.bool
+    readOnly: PropTypes.bool,
+    style: PropTypes.object
   };
 
   render() {
-    const {state, onChange, readOnly} = this.props;
+    const {state, onChange, readOnly, style} = this.props;
 
     return (
-      <div className={readOnly ?
+      <div
+        className={readOnly ?
           'qa-editor__html-style' :
-          `${styles.editor} qa-editor__html-style`}>
+          `${styles.editor} qa-editor__html-style`}
+        style={style}>
         <Editor
           readOnly={readOnly}
           state={state}

@@ -49,6 +49,12 @@ class Editor extends Component {
           readOnly={true}
           state={this.state.json}
         />
+
+        <h1>Customize Slate editor: </h1>
+        <QaEditor
+          style={{color: '#FFF', backgroundColor: 'rgba(0, 0, 0, .65)'}}
+          state={initialState}
+          onChange={arg => arg}/>
       </div>
     );
   }
