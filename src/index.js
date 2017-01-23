@@ -46,7 +46,10 @@ export default class QaEditor extends Component {
 
     this.onChange = this.onChange.bind(this);
     this.state = {
-      state: Raw.deserialize(JSON.parse(props.state), {terse: true})
+      state: Raw.deserialize(
+        JSON.parse(props.state === '' ? defaultData : props.state),
+        {terse: true}
+      )
     };
   }
 
@@ -106,7 +109,7 @@ export default class QaEditor extends Component {
         }
         <EditorComponent
           {...this.props}
-          state={state === '' ? defaultData : state}
+          state={state}
           onChange={this.onChange}/>
       </div>
     );
