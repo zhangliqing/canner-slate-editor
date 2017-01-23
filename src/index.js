@@ -106,7 +106,7 @@ export default class QaEditor extends Component {
         }
         <EditorComponent
           {...this.props}
-          state={state}
+          state={state === '' ? defaultData : state}
           onChange={this.onChange}/>
       </div>
     );
