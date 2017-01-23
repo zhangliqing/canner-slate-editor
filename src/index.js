@@ -25,6 +25,21 @@ const icons = [
   Icons.blocks.UlList
 ];
 
+const defaultData = JSON.stringify({
+  nodes: [
+    {
+      kind: 'block',
+      type: 'paragraph',
+      nodes: [
+        {
+          kind: 'text',
+          text: ''
+        }
+      ]
+    }
+  ]
+});
+
 export default class QaEditor extends Component {
   constructor(props) {
     super(props);
@@ -39,6 +54,10 @@ export default class QaEditor extends Component {
     onChange: PropTypes.func,
     state: PropTypes.string,
     readOnly: PropTypes.bool
+  };
+
+  static defaultProps = {
+    state: defaultData
   };
 
   onChange(state) {
