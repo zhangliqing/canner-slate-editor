@@ -69,7 +69,10 @@ export default class QaEditor extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.readOnly) {
+    if (
+      nextProps.readOnly !== this.props.readOnly ||
+      nextProps.state !== this.props.state
+    ) {
       this.setState({
         state: Raw.deserialize(JSON.parse(nextProps.state), {terse: true})
       });
