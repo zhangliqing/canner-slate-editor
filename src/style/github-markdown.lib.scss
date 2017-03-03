@@ -13,6 +13,17 @@ $prefix-cls: 'qa-editor__html-style';
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
+
+  div[data-slate-type=image] > div, div[data-slate-type=video] > div {
+    max-width: 100% !important;
+  }
+
+  @include xs {
+    div[data-slate-type=image] > div, div[data-slate-type=video] > div {
+      width: 100% !important;
+      height: 300px !important;
+    }
+}
 }
 
 .#{$prefix-cls} .pl-c {
