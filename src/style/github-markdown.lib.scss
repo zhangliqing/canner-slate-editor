@@ -18,12 +18,12 @@ $prefix-cls: 'qa-editor__html-style';
     max-width: 100% !important;
   }
 
-  @include xs {
+  @media screen and (max-width: 768px) {
     div[data-slate-type=image] > div, div[data-slate-type=video] > div {
       width: 100% !important;
       height: 300px !important;
     }
-}
+  }
 }
 
 .#{$prefix-cls} .pl-c {
