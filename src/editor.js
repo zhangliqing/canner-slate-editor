@@ -41,11 +41,12 @@ export default class EditorComponent extends Component {
     state: PropTypes.object,
     onChange: PropTypes.func,
     readOnly: PropTypes.bool,
-    style: PropTypes.object
+    style: PropTypes.object,
+    onBlur: PropTypes.func
   };
 
   render() {
-    const {state, onChange, readOnly, style} = this.props;
+    const {state, onChange, readOnly, style, onBlur} = this.props;
 
     return (
       <div
@@ -58,6 +59,7 @@ export default class EditorComponent extends Component {
           state={state}
           schema={schema(readOnly)}
           onChange={onChange}
+          onBlur={onBlur}
           plugins={[
             EditList(LIST_DEFAULT),
             EditBlockquote(BLOCKQUOTE_DEFAULT),

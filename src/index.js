@@ -43,13 +43,16 @@ const defaultData = JSON.stringify({
 export default class QaEditor extends Component {
   constructor(props) {
     super(props);
-
+    this.onBlur = this.onBlur.bind(this);
+    this.onFocus = this.onFocus.bind(this);
     this.onChange = this.onChange.bind(this);
     this.state = {
       state: Raw.deserialize(
         JSON.parse(props.state === '' ? defaultData : props.state),
         {terse: true}
-      )
+      ),
+      // https://github.com/Canner/qa-editor/issues/7
+      readOnly: props.readOnly
     };
   }
 
@@ -68,8 +71,18 @@ export default class QaEditor extends Component {
     this.props.onChange(JSON.stringify(Raw.serialize(state, {terse: true})));
   }
 
+  onBlur() {
+    this.setState({readOnly: true});
+  }
+
+  onFocus() {
+    if (!this.props.readOnly) {
+      this.setState({readOnly: false});
+    }
+  }
+
   componentWillReceiveProps(nextProps) {
-    if (nextProps.readOnly) {
+    if (nextProps.readOnly || this.state.readOnly) {
       this.setState({
         state: Raw.deserialize(JSON.parse(nextProps.state), {terse: true})
       });
@@ -78,9 +91,8 @@ export default class QaEditor extends Component {
 
   render() {
     const {state} = this.state;
-
     return (
-      <div>
+      <div onMouseOver={this.onFocus}>
         {
           this.props.readOnly ? null : (
             <div className={styles.topToolbar}>
@@ -110,7 +122,9 @@ export default class QaEditor extends Component {
         <EditorComponent
           {...this.props}
           state={state}
-          onChange={this.onChange}/>
+          onChange={this.onChange}
+          onBlur={this.onBlur}
+        />
       </div>
     );
   }

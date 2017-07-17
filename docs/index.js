@@ -38,7 +38,7 @@ class Editor extends Component {
     return (
       <div>
         <QaEditor
-          state={initialState}
+          state={this.state.json}
           onChange={this.onChange}/>
         <h1>Slate Object:</h1>
         <div style={{margin: '20px'}}>
@@ -53,8 +53,28 @@ class Editor extends Component {
         <h1>Customize Slate editor: </h1>
         <QaEditor
           style={{color: '#FFF', backgroundColor: 'rgba(0, 0, 0, .65)'}}
-          state={initialState}
+          state={this.state.json}
           onChange={arg => arg}/>
+
+        <h2>Update</h2>
+        <div>
+          <a href="https://github.com/Canner/qa-editor/issues/7">
+            Test Issue
+          </a>
+        </div>
+        <textarea rows="8" cols="80"
+          ref={newJson => {
+            this.newJson = newJson;
+          }}
+          defaultValue={JSON.stringify(this.state.json)}>
+        </textarea>
+        <div>
+          <button onClick={() => {
+            this.onChange(JSON.parse(this.newJson.value));
+          }}>
+            更新data
+          </button>
+        </div>
       </div>
     );
   }
