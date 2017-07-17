@@ -42,14 +42,16 @@ export default class EditorComponent extends Component {
     onChange: PropTypes.func,
     readOnly: PropTypes.bool,
     style: PropTypes.object,
-    onBlur: PropTypes.func
+    onBlur: PropTypes.func,
+    onFocus: PropTypes.func
   };
 
   render() {
-    const {state, onChange, readOnly, style, onBlur} = this.props;
+    const {state, onChange, readOnly, style, onBlur, onFocus} = this.props;
 
     return (
       <div
+        onClick={onFocus}
         className={readOnly ?
           'qa-editor__html-style' :
           `${styles.editor} qa-editor__html-style`}

@@ -52,7 +52,7 @@ export default class QaEditor extends Component {
         {terse: true}
       ),
       // https://github.com/Canner/qa-editor/issues/7
-      readOnly: props.readOnly
+      readOnly: true
     };
   }
 
@@ -92,7 +92,7 @@ export default class QaEditor extends Component {
   render() {
     const {state} = this.state;
     return (
-      <div onMouseOver={this.onFocus}>
+      <div>
         {
           this.props.readOnly ? null : (
             <div className={styles.topToolbar}>
@@ -124,6 +124,7 @@ export default class QaEditor extends Component {
           state={state}
           onChange={this.onChange}
           onBlur={this.onBlur}
+          onFocus={this.onFocus}
         />
       </div>
     );
