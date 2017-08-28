@@ -17,15 +17,20 @@ const options = {
 
 const Editor = embededToolbar(options)(EditorComponent);
 export default class QaEditorWithToolbar extends QaEditor {
+  constructor(props) {
+    super(props);
+    this.readOnly = false;
+    this.state.readOnly = false;
+  }
   render() {
     const {state} = this.state;
     return (
       <div>
         <Toolbar onChange={this.onChange}
-          readOnly={this.props.readOnly}
           state={state} />
         <Editor
           {...this.props}
+          readOnly={false}
           state={state}
           onChange={this.onChange}
           onBlur={this.onBlur}

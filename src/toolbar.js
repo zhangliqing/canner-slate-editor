@@ -24,7 +24,6 @@ const icons = [
 
 export default class Toolbar extends Component {
   static propTypes = {
-    readOnly: PropTypes.bool,
     state: PropTypes.string,
     onChange: PropTypes.func
   };

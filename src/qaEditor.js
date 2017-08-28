@@ -1,6 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import {Raw} from 'slate';
-import EditorComponent from './editor';
+import Editor from './editor';
 
 const defaultData = JSON.stringify({
   nodes: [
@@ -23,6 +23,7 @@ export default class QaEditor extends Component {
     this.onBlur = this.onBlur.bind(this);
     this.onFocus = this.onFocus.bind(this);
     this.onChange = this.onChange.bind(this);
+    this.readOnly = true;
     this.state = {
       state: Raw.deserialize(
         JSON.parse(props.state === '' ? defaultData : props.state),
@@ -35,8 +36,7 @@ export default class QaEditor extends Component {
 
   static propTypes = {
     onChange: PropTypes.func,
-    state: PropTypes.string,
-    readOnly: PropTypes.bool
+    state: PropTypes.string
   };
 
   static defaultProps = {
@@ -53,13 +53,13 @@ export default class QaEditor extends Component {
   }
 
   onFocus() {
-    if (!this.props.readOnly) {
+    if (!this.readOnly) {
       this.setState({readOnly: false});
     }
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.readOnly || this.state.readOnly) {
+    if (this.readOnly || this.state.readOnly) {
       this.setState({
         state: Raw.deserialize(JSON.parse(nextProps.state), {terse: true})
       });
@@ -67,10 +67,11 @@ export default class QaEditor extends Component {
   }
 
   render() {
-    const {state} = this.state;
+    const {state, readOnly} = this.state;
     return (
-      <EditorComponent
+      <Editor
         {...this.props}
+        readOnly={readOnly}
         state={state}
         onChange={this.onChange}
         onBlur={this.onBlur}

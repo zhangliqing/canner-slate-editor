@@ -34,7 +34,6 @@ export default class EditorComponent extends Component {
 
   render() {
     const {state, onChange, readOnly, style, onBlur, onFocus} = this.props;
-
     return (
       <div
         onClick={onFocus}
