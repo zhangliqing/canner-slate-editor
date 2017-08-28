@@ -47,7 +47,7 @@
     "react-addons-test-utils": "^15.3.1",
     "react-dom": "^15.3.1",
     "rimraf": "^2.5.4",
-    "webpack": "^1.13.2",
+    "webpack": "lastest",
     "webpack-hot-middleware": "^2.12.2"
   },
   "scripts": {
@@ -62,6 +62,7 @@
     "test:watch": "cross-env BABEL_ENV=test karma start",
     "start": "node devServer.js",
     "build:docs": "cross-env BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.prod.js",
+    "build:external": "cross-env BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.external.js",
     "postpublish": "npm run build:docs",
     "validate": "npm ls"
   },
@@ -85,6 +86,7 @@
     "slate-editor-icons": "^0.11.1",
     "slate-plugins": "^1.7.2",
     "slate-toolbar": "^0.6.4",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "webpack-bundle-analyzer": "^2.9.0"
   }
 }
