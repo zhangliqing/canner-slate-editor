@@ -49,7 +49,7 @@
     "react-addons-test-utils": "^15.3.1",
     "react-dom": "^15.3.1",
     "rimraf": "^2.5.4",
-    "webpack": "lastest",
+    "webpack": "^3.5.5",
     "webpack-hot-middleware": "^2.12.2"
   },
   "scripts": {
