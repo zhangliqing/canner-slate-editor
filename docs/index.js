@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import QaEditor from '../src/index';
+import Reader from '../src/qaEditor';
 
 const initialState = JSON.stringify({
   nodes: [
@@ -45,8 +46,7 @@ class Editor extends Component {
           {this.state.json}
         </div>
         <h2>Preview</h2>
-        <QaEditor
-          readOnly={true}
+        <Reader
           state={this.state.json}
         />
 

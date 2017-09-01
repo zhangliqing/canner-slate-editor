@@ -1,26 +1,13 @@
 /* eslint-disable new-cap */
 import React, {Component, PropTypes} from 'react';
 import {Editor} from 'slate';
-import toolbar from 'slate-toolbar';
 import EditList from 'slate-edit-list';
 import EditBlockquote from 'slate-edit-blockquote';
 import TrailingBlock from 'slate-trailing-block';
 import schema from './schema';
-import Icons from 'slate-editor-icons';
 
 import styles from "./style/index.scss";
 import "./style/github-markdown.lib.scss";
-
-const options = {
-  toolbarMarks: [
-    Icons.marks.Bold,
-    Icons.marks.Italic,
-    Icons.marks.Underline,
-    Icons.marks.Code,
-    Icons.marks.StrikeThrough,
-    Icons.marks.Clean
-  ]
-};
 
 const LIST_DEFAULT = {
   typeUL: 'list-ul',
@@ -35,7 +22,6 @@ const BLOCKQUOTE_DEFAULT = {
   typeDefault: 'paragraph'
 };
 
-@toolbar(options) // embed a toolbar in editor!
 export default class EditorComponent extends Component {
   static propTypes = {
     state: PropTypes.object,
@@ -48,7 +34,6 @@ export default class EditorComponent extends Component {
 
   render() {
     const {state, onChange, readOnly, style, onBlur, onFocus} = this.props;
-
     return (
       <div
         onClick={onFocus}

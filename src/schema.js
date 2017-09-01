@@ -1,4 +1,4 @@
-import Icons from 'slate-editor-icons';
+import helpers from 'slate-editor-icons/lib/helpers';
 const {
   commonNode,
   commonMark,
@@ -6,7 +6,7 @@ const {
   imageNode,
   emojiNode,
   linkNode
-} = Icons.helpers;
+} = helpers;
 
 /* eslint-disable react/prop-types, react/display-name, require-jsdoc */
 export default function(readOnly) {

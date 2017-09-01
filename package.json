@@ -35,6 +35,8 @@
     "eslint-plugin-react": "^6.2.0",
     "express": "^4.14.0",
     "gulp": "^3.9.1",
+    "gulp-gzip": "^1.4.0",
+    "gulp-s3": "^0.11.0",
     "karma": "^1.2.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-cli": "^1.0.1",
@@ -47,7 +49,7 @@
     "react-addons-test-utils": "^15.3.1",
     "react-dom": "^15.3.1",
     "rimraf": "^2.5.4",
-    "webpack": "^1.13.2",
+    "webpack": "^3.5.5",
     "webpack-hot-middleware": "^2.12.2"
   },
   "scripts": {
@@ -62,6 +64,7 @@
     "test:watch": "cross-env BABEL_ENV=test karma start",
     "start": "node devServer.js",
     "build:docs": "cross-env BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.prod.js",
+    "build:external": "cross-env BABEL_ENV=production ./node_modules/.bin/webpack --config webpack.config.external.js",
     "postpublish": "npm run build:docs",
     "validate": "npm ls"
   },
@@ -82,9 +85,10 @@
     "resolve-url-loader": "^1.6.1",
     "sass-loader": "^4.0.2",
     "slate": "^0.20.6",
-    "slate-editor-icons": "^0.11.1",
+    "slate-editor-icons": "^0.12.1",
     "slate-plugins": "^1.7.2",
     "slate-toolbar": "^0.6.4",
-    "style-loader": "^0.13.1"
+    "style-loader": "^0.13.1",
+    "webpack-bundle-analyzer": "^2.9.0"
   }
 }
