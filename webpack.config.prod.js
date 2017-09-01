@@ -14,7 +14,7 @@ module.exports = {
     'react-dom': "ReactDOM"
   },
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['.js']
   },
   plugins: [
     new webpack.DefinePlugin({
