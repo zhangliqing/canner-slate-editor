@@ -35,30 +35,44 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        loaders: ['babel'],
+        loaders: ['babel-loader'],
         exclude: [/node_modules/]
       },
       {
         test: /\.css$/,
-        loader: "style!css",
+        loader: "style-loader!css-loader",
         exclude: /flexboxgrid/
       },
       {
         test: /\.scss$/,
-        loaders: [
-          "style?sourceMap",
-          "css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]",
-          "resolve-url",
-          "sass?sourceMap"
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              localIdent: '[path]___[name]__[local]___[hash:base64:5]',
+              importLoaders: 1,
+              modules: true
+            }
+          },
+          'resolve-url-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
         ],
         exclude: [/\.antd.scss$/, /\.lib.scss$/]
       },
       {
         test: [/\.antd.scss$/, /\.lib.scss$/],
         loaders: [
-          "style",
-          "css",
-          "sass"
+          "style-loader",
+          "css-loader",
+          "sass-loader"
         ]
       },
       {
