@@ -1,4 +1,6 @@
 # qa-editor [![NPM version][npm-image]][npm-url]  [![Dependency Status][daviddm-image]][daviddm-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Canner/qa-editor.svg?token=98c3636b88e0e670d461c135a7532a412d6a163e2118e97eee2734ef98e7eea3&ts=1520088049569)](https://greenkeeper.io/)
 > qa editor
 
 ## Installation
