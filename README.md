@@ -24,9 +24,9 @@ npm start
 MIT [Canner](https://www.canner.io)
 
 
-[npm-image]: https://badge.fury.io/js/qa-editor.svg
-[npm-url]: https://npmjs.org/package/qa-editor
-[travis-image]: https://travis-ci.org/Canner/qa-editor.svg?branch=master
-[travis-url]: https://travis-ci.org/Canner/qa-editor
-[daviddm-image]: https://david-dm.org/Canner/qa-editor.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/Canner/qa-editor
+[npm-image]: https://badge.fury.io/js/canner-slate-editor.svg
+[npm-url]: https://npmjs.org/package/canner-slate-editor
+[travis-image]: https://travis-ci.org/Canner/canner-slate-editor.svg?branch=master
+[travis-url]: https://travis-ci.org/Canner/canner-slate-editor
+[daviddm-image]: https://david-dm.org/Canner/canner-slate-editor.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Canner/canner-slate-editor
