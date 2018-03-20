@@ -1,40 +1,39 @@
-import React from 'react';
+// @flow
+import * as React from "react";
+import inlineToolbar from "slate-toolbar";
+import MenuToolbar from './menuToolbar';
 import EditorComponent from './editor';
-import Toolbar from './toolbar';
-import QaEditor from './qaEditor';
-import embededToolbar from 'slate-toolbar';
-import Icons from 'slate-editor-icons';
-const options = {
-  toolbarMarks: [
-    Icons.marks.Bold,
-    Icons.marks.Italic,
-    Icons.marks.Underline,
-    Icons.marks.Code,
-    Icons.marks.StrikeThrough,
-    Icons.marks.Clean
-  ]
-};
+import type {Value, Change} from 'slate';
+let Editor;
 
-const Editor = embededToolbar(options)(EditorComponent);
-export default class QaEditorWithToolbar extends QaEditor {
-  constructor(props) {
+type Props = {
+  value: Value,
+  onChange: (change: Change) => void,
+  menuToolbarOptions: Array<any>,
+  inlineToolbarOptions: {[string]: any},
+  renderMark: Function,
+  renderNode: Function,
+  plugins: Array<any>
+}
+
+export default class EditorWithToolbar extends React.Component<Props> {
+  constructor(props: Props) {
     super(props);
-    this.readOnly = false;
-    this.state.readOnly = false;
+    Editor = inlineToolbar(props.inlineToolbarOptions)(EditorComponent);
   }
   render() {
-    const {state} = this.state;
+    const { value, onChange, menuToolbarOptions, ...rest } = this.props;
+
     return (
       <div>
-        <Toolbar onChange={this.onChange}
-          state={state} />
+        <MenuToolbar
+          options={menuToolbarOptions}
+          onChange={onChange}
+          value={value}/>
         <Editor
-          {...this.props}
-          readOnly={false}
-          state={state}
-          onChange={this.onChange}
-          onBlur={this.onBlur}
-          onFocus={this.onFocus}
+          {...rest}
+          value={value}
+          onChange={onChange}
         />
       </div>
     );
