@@ -1,7 +1,7 @@
 {
   "name": "canner-slate-editor",
   "version": "0.1.0",
-  "description": "qa editor",
+  "description": "Another rich text editor using Slate framework with toolbar support",
   "homepage": "",
   "author": {
     "name": "Canner",
