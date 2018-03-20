@@ -6,12 +6,16 @@ import {Container} from './components/menuContainer';
 type Props = {
   value: Value,
   onChange: (change: Change) => void,
-  options: Array<any>
+  options?: Array<any>
 }
 
 export default class Toolbar extends React.Component<Props> {
   render() {
     const { value, onChange, options } = this.props;
+    if (!options || options.length <= 0) {
+      return null;
+    }
+
     return (
       <Container>
         {options.map((Type, i) => {

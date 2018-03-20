@@ -4,13 +4,13 @@ import inlineToolbar from "slate-toolbar";
 import MenuToolbar from './menuToolbar';
 import EditorComponent from './editor';
 import type {Value, Change} from 'slate';
-let Editor;
+let Editor = EditorComponent;
 
 type Props = {
   value: Value,
   onChange: (change: Change) => void,
-  menuToolbarOptions: Array<any>,
-  inlineToolbarOptions: {[string]: any},
+  menuToolbarOptions?: Array<any>,
+  inlineToolbarOptions?: {[string]: any},
   renderMark: Function,
   renderNode: Function,
   plugins: Array<any>
@@ -19,7 +19,10 @@ type Props = {
 export default class EditorWithToolbar extends React.Component<Props> {
   constructor(props: Props) {
     super(props);
-    Editor = inlineToolbar(props.inlineToolbarOptions)(EditorComponent);
+
+    if (props.inlineToolbarOptions) {
+      Editor = inlineToolbar(props.inlineToolbarOptions)(EditorComponent);
+    }
   }
   render() {
     const { value, onChange, menuToolbarOptions, ...rest } = this.props;
