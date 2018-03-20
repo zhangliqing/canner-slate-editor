@@ -1,5 +1,5 @@
-import React, {Component, PropTypes} from 'react';
-import Icons from 'slate-editor-icons';
+import React, { Component, PropTypes } from "react";
+import Icons from "slate-editor-icons";
 import styles from "./style/toolbar.scss";
 
 const icons = [
@@ -29,28 +29,32 @@ export default class Toolbar extends Component {
   };
 
   render() {
-    const {state, onChange} = this.props;
-    return <div className={styles.topToolbar}>
-      {icons.map((Type, i) => {
-        return React.createElement(Type, {
-          key: i,
-          state,
-          onChange: onChange,
-          className: styles.topToolbarItem,
-          strokeClassName: styles.qlStroke,
-          strokeMitterClassName: styles.qlStrokeMitter,
-          fillClassName: styles.qlFill,
-          evenClassName: styles.qlEven,
-          colorLabelClassName: styles.qlColorLabel,
-          thinClassName: styles.qlThin,
-          activeStrokeMitterClassName: styles.qlStrokeMitterActive,
-          activeClassName: `${styles.topToolbarItem} ${styles.topToolbarItemActive}`, // eslint-disable-line
-          activeStrokeClassName: styles.qlStrokeActive,
-          activeFillClassName: styles.qlFillActive,
-          activeThinClassName: styles.qlThinActive,
-          activeEvenClassName: styles.qlEvenActive
-        });
-      })}
-    </div>;
+    const { state, onChange } = this.props;
+    return (
+      <div className={styles.topToolbar}>
+        {icons.map((Type, i) => {
+          return React.createElement(Type, {
+            key: i,
+            state,
+            onChange: onChange,
+            className: styles.topToolbarItem,
+            strokeClassName: styles.qlStroke,
+            strokeMitterClassName: styles.qlStrokeMitter,
+            fillClassName: styles.qlFill,
+            evenClassName: styles.qlEven,
+            colorLabelClassName: styles.qlColorLabel,
+            thinClassName: styles.qlThin,
+            activeStrokeMitterClassName: styles.qlStrokeMitterActive,
+            activeClassName: `${styles.topToolbarItem} ${
+              styles.topToolbarItemActive
+            }`, // eslint-disable-line
+            activeStrokeClassName: styles.qlStrokeActive,
+            activeFillClassName: styles.qlFillActive,
+            activeThinClassName: styles.qlThinActive,
+            activeEvenClassName: styles.qlEvenActive
+          });
+        })}
+      </div>
+    );
   }
 }

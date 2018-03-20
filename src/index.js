@@ -1,9 +1,9 @@
-import React from 'react';
-import EditorComponent from './editor';
-import Toolbar from './toolbar';
-import QaEditor from './qaEditor';
-import embededToolbar from 'slate-toolbar';
-import Icons from 'slate-editor-icons';
+import React from "react";
+import EditorComponent from "./editor";
+import Toolbar from "./toolbar";
+import QaEditor from "./qaEditor";
+import embededToolbar from "slate-toolbar";
+import Icons from "slate-editor-icons";
 const options = {
   toolbarMarks: [
     Icons.marks.Bold,
@@ -23,11 +23,10 @@ export default class QaEditorWithToolbar extends QaEditor {
     this.state.readOnly = false;
   }
   render() {
-    const {state} = this.state;
+    const { state } = this.state;
     return (
       <div>
-        <Toolbar onChange={this.onChange}
-          state={state} />
+        <Toolbar onChange={this.onChange} state={state} />
         <Editor
           {...this.props}
           readOnly={false}
