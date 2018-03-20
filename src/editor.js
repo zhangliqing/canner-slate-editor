@@ -1,62 +1,30 @@
-/* eslint-disable new-cap */
-import React, { Component, PropTypes } from "react";
-import { Editor } from "slate";
-import EditList from "slate-edit-list";
-import EditBlockquote from "slate-edit-blockquote";
-import TrailingBlock from "slate-trailing-block";
-import schema from "./schema";
+// @flow
+import * as React from "react";
+import { Editor } from "slate-react";
+import type {Value, Change} from 'slate';
+import styled from 'styled-components';
 
-import styles from "./style/index.scss";
-import "./style/github-markdown.lib.scss";
+type Props = {
+  value: Value,
+  onChange: (change: Change) => void,
+  renderMark: Function,
+  renderNode: Function,
+  plugins: Array<any>
+}
 
-const LIST_DEFAULT = {
-  typeUL: "list-ul",
-  typeOL: "list-ol",
-  typeItem: "list-item",
-  typeDefault: "paragraph",
-  ordered: true
-};
+const Container = styled.div`
+  margin: 0 20px;
+  padding: 5px;
+  background-color: #FFF;
+  border: 3px solid #f8f8f8;
+`
 
-const BLOCKQUOTE_DEFAULT = {
-  type: "blockquote",
-  typeDefault: "paragraph"
-};
-
-export default class EditorComponent extends Component {
-  static propTypes = {
-    state: PropTypes.object,
-    onChange: PropTypes.func,
-    readOnly: PropTypes.bool,
-    style: PropTypes.object,
-    onBlur: PropTypes.func,
-    onFocus: PropTypes.func
-  };
-
+export default class EditorComponent extends React.Component<Props> {
   render() {
-    const { state, onChange, readOnly, style, onBlur, onFocus } = this.props;
     return (
-      <div
-        onClick={onFocus}
-        className={
-          readOnly
-            ? "qa-editor__html-style"
-            : `${styles.editor} qa-editor__html-style`
-        }
-        style={style}
-      >
-        <Editor
-          readOnly={readOnly}
-          state={state}
-          schema={schema(readOnly)}
-          onChange={onChange}
-          onBlur={onBlur}
-          plugins={[
-            EditList(LIST_DEFAULT),
-            EditBlockquote(BLOCKQUOTE_DEFAULT),
-            TrailingBlock({ type: "paragraph" })
-          ]}
-        />
-      </div>
+      <Container>
+        <Editor {...this.props}/>
+      </Container>
     );
   }
 }

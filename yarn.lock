@@ -209,6 +209,19 @@
     "@canner/slate-icon-shared" "^1.0.1"
     "@canner/slate-util-have" "^0.1.2"
 
+"@canner/slate-icon-image@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-image/-/slate-icon-image-1.0.1.tgz#4de0367ffd96063c293e43dae7f9f1c0ad0f6049"
+  dependencies:
+    "@canner/image-upload" "^0.10.0"
+    "@canner/slate-icon-shared" "^1.0.1"
+
+"@canner/slate-icon-indent@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-indent/-/slate-icon-indent-1.0.1.tgz#17d718174b624c638cbf5897178c1693f8efb417"
+  dependencies:
+    "@canner/slate-icon-shared" "^1.0.1"
+
 "@canner/slate-icon-italic@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@canner/slate-icon-italic/-/slate-icon-italic-1.0.1.tgz#c6c2dc1ceedf22f399107e70155228338f9d4f4a"

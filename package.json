@@ -29,6 +29,8 @@
     "@canner/slate-icon-fontbgcolor": "^1.0.1",
     "@canner/slate-icon-fontcolor": "^1.0.1",
     "@canner/slate-icon-header": "^1.0.1",
+    "@canner/slate-icon-image": "^1.0.1",
+    "@canner/slate-icon-indent": "^1.0.1",
     "@canner/slate-icon-italic": "^1.0.1",
     "@canner/slate-icon-link": "^1.0.1",
     "@canner/slate-icon-list": "^1.0.1",
@@ -97,6 +99,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "slate-toolbar": "^0.7.1"
+    "slate-toolbar": "^0.7.1",
+    "styled-components": "^3.2.3"
   }
 }

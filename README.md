@@ -1,25 +1,27 @@
-# qa-editor [![NPM version][npm-image]][npm-url]  [![Dependency Status][daviddm-image]][daviddm-url]
-> qa editor
+# canner-slate-editor [![NPM version][npm-image]][npm-url]  [![Dependency Status][daviddm-image]][daviddm-url]
+> Another rich text editor using [Slate framework](https://docs.slatejs.org) with toolbar support 
+
+![demo](./docs/demo.png)
 
 ## Installation
 
 ```sh
-$ npm install --save @canner/qa-editor
+$ npm install --save canner-slate-editor
 ```
 
 ## Usage
 
-see https://github.com/Canner/qa-editor/blob/master/docs/index.js
+see https://github.com/Canner/canner-slate-editor/blob/master/docs/index.js
 
 ## Start example server
 
 ```
-node devServer.js
+npm start
 ```
 
 ## License
 
-Apache-2.0 © [Canner]()
+MIT [Canner](https://www.canner.io)
 
 
 [npm-image]: https://badge.fury.io/js/qa-editor.svg

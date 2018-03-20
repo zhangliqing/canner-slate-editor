@@ -1,9 +1,13 @@
-.topToolbar {
+// @flow
+import styled from "styled-components";
+
+export const Container = styled.div`
   padding: 20px;
   display: inline-block;
-  background-color: #FFF;
+  background-color: #fff;
 
-  .topToolbarItem, .topToolbarItemActive {
+  .topToolbarItem,
+  .topToolbarItemActive {
     width: 30px;
     height: 30px;
   }
@@ -17,7 +21,7 @@
   }
 
   .qlStrokeActive {
-    stroke: #CCC;
+    stroke: #ccc;
     fill: transparent;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -30,7 +34,7 @@
   }
 
   .qlStrokeMitterActive {
-    stroke: #CCC;
+    stroke: #ccc;
     fill: transparent;
   }
 
@@ -39,17 +43,17 @@
   }
 
   .qlFillActive {
-    fill: #CCC;
+    fill: #ccc;
   }
 
   .qlEven {
     stroke: #444;
-    fill: #FFF;
+    fill: #fff;
   }
 
   .qlEvenActive {
-    stroke: #CCC;
-    fill: #FFF;
+    stroke: #ccc;
+    fill: #fff;
   }
 
   .qlColorLabel {
@@ -57,7 +61,7 @@
   }
 
   .qlTransparent {
-    // opacity: 0.2;
+    opacity: 0.2;
   }
 
   .qlThin {
@@ -67,8 +71,8 @@
   }
 
   .qlThinActive {
-    stroke: #CCC;
+    stroke: #ccc;
     fill: transparent;
     stroke-width: 1;
   }
-}
+`;
