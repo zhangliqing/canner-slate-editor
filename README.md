@@ -1,7 +1,7 @@
 # canner-slate-editor [![NPM version][npm-image]][npm-url]  [![Dependency Status][daviddm-image]][daviddm-url]
 > Another rich text editor using [Slate framework](https://docs.slatejs.org).
 
-<img src="./docs/demo.png" height="400px"/>
+<img src="./docs/demo.png" height="600px"/>
 
 ## Installation
 
