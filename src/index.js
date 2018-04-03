@@ -9,8 +9,8 @@ import {BlockquotePlugin} from '@canner/slate-icon-blockquote';
 import {BoldPlugin} from '@canner/slate-icon-bold';
 import {CodePlugin} from '@canner/slate-icon-code';
 import {CodeBlockPlugin} from '@canner/slate-icon-codeblock';
-import {FontBgColorPlugin} from '@canner/slate-icon-fontBgColor';
-import {FontColorPlugin} from '@canner/slate-icon-fontColor';
+import {FontBgColorPlugin} from '@canner/slate-icon-fontbgcolor';
+import {FontColorPlugin} from '@canner/slate-icon-fontcolor';
 import {HeaderPlugin} from '@canner/slate-icon-header';
 import {HrPlugin} from '@canner/slate-icon-hr';
 import {ImagePlugin} from '@canner/slate-icon-image';
@@ -53,8 +53,12 @@ const plugins = [
   BoldPlugin(),
   CodePlugin(),
   CodeBlockPlugin(),
-  FontBgColorPlugin(),
-  FontColorPlugin(),
+  FontBgColorPlugin({
+    backgroundColor: (mark) => mark.data.get('color').color
+  }),
+  FontColorPlugin({
+    color: (mark) => mark.data.get('color').color
+  }),
   ItalicPlugin(),
   StrikeThroughPlugin(),
   UnderlinePlugin(),
