@@ -1,15 +1,19 @@
 // @flow
 import styled from "styled-components";
 
+
 export const Container = styled.div`
-  padding: 20px;
-  display: inline-block;
-  background-color: #fff;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 1px 1px rgba(0,0,0,0.16);
+  line-height: 0px !important;
 
   .topToolbarItem,
   .topToolbarItemActive {
-    width: 30px;
-    height: 30px;
+    display: block;
+    width: 16px;
+    margin: 10px;
+    text-align: center;
+    float: none;
   }
 
   .qlStroke {
@@ -17,15 +21,15 @@ export const Container = styled.div`
     fill: transparent;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-width: 1.5px;
+    stroke-width: 2;
   }
 
   .qlStrokeActive {
-    stroke: #ccc;
+    stroke: #4f748e;
     fill: transparent;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-width: 1.5px;
+    stroke-width: 2;
   }
 
   .qlStrokeMitter {
@@ -34,7 +38,7 @@ export const Container = styled.div`
   }
 
   .qlStrokeMitterActive {
-    stroke: #ccc;
+    stroke: #4f748e;
     fill: transparent;
   }
 
@@ -43,7 +47,7 @@ export const Container = styled.div`
   }
 
   .qlFillActive {
-    fill: #ccc;
+    fill: #4f748e;
   }
 
   .qlEven {
@@ -52,7 +56,7 @@ export const Container = styled.div`
   }
 
   .qlEvenActive {
-    stroke: #ccc;
+    stroke: #4f748e;
     fill: #fff;
   }
 
@@ -71,7 +75,7 @@ export const Container = styled.div`
   }
 
   .qlThinActive {
-    stroke: #ccc;
+    stroke: #4f748e;
     fill: transparent;
     stroke-width: 1;
   }
