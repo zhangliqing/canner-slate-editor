@@ -1,6 +1,6 @@
 {
   "name": "canner-slate-editor",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Another rich text editor using Slate framework with toolbar support",
   "homepage": "",
   "author": {

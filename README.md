@@ -78,7 +78,7 @@ npm start
 
 ## License
 
-MIT [Canner](https://www.canner.io)
+Apache 2.0 [Canner](https://www.canner.io)
 
 
 [npm-image]: https://badge.fury.io/js/canner-slate-editor.svg
