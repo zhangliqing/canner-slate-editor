@@ -343,6 +343,12 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
+"@types/react@*":
+  version "16.3.6"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.3.6.tgz#50cec71f14cbaaf49a53167dc1d6739be1d43f12"
+  dependencies:
+    csstype "^2.0.0"
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -2557,6 +2563,10 @@ csso@~2.3.1:
     clap "^1.0.9"
     source-map "^0.5.3"
 
+csstype@^2.0.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.1.1.tgz#37b01a7a9958ef0b88167ff6678deccd732e0ae2"
+
 currently-unhandled@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz#988df33feab191ef799a61369dd76c17adf957ea"
@@ -3538,6 +3548,10 @@ fs-write-stream-atomic@^1.0.8:
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
+
+fscreen@^1.0.1, fscreen@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/fscreen/-/fscreen-1.0.2.tgz#c4c51d96d819d75a19d728e0df445f9be9bb984f"
 
 fsevents@^1.0.0:
   version "1.1.2"
@@ -6911,6 +6925,21 @@ react-dom@^16.2.0:
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
+react-fontawesome@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/react-fontawesome/-/react-fontawesome-1.6.1.tgz#eddce17e7dc731aa09fd4a186688a61793a16c5c"
+  dependencies:
+    prop-types "^15.5.6"
+
+react-full-screen@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/react-full-screen/-/react-full-screen-0.2.2.tgz#3939b362cccaa983fb2845ca0c363f29999f485a"
+  dependencies:
+    "@types/react" "*"
+    fscreen "^1.0.1"
+    prop-types "^15.5.10"
+    react "^15.6.1"
+
 react-icon-base@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-icon-base/-/react-icon-base-2.1.0.tgz#a196e33fdf1e7aaa1fda3aefbb68bdad9e82a79d"
@@ -6970,6 +6999,16 @@ react-slick@~0.21.0:
     enquire.js "^2.1.6"
     json2mq "^0.2.0"
     object-assign "^4.1.0"
+
+react@^15.6.1:
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
+  dependencies:
+    create-react-class "^15.6.0"
+    fbjs "^0.8.9"
+    loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+    prop-types "^15.5.10"
 
 react@^16.2.0:
   version "16.2.0"

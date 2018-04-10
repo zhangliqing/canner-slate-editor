@@ -1,8 +1,10 @@
 // @flow
 import * as React from "react";
 import { Editor } from "slate-react";
+import { Affix } from 'antd';
 import type {Value, Change} from 'slate';
 import styled from 'styled-components';
+import Fullscreen from "react-full-screen";
 import Toolbar from './menuToolbar';
 
 import {BlockquotePlugin} from '@canner/slate-icon-blockquote';
@@ -75,32 +77,72 @@ type Props = {
   onChange: (change: Change) => void
 }
 
+type State = {
+  isFull: boolean
+}
+
 const Container = styled.div`
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 1px 1px rgba(0,0,0,0.16);
+  height: ${props => props.isFull ? '100vh' : 'auto'};
+  overflow-y: ${props => props.isFull ? 'scroll' : 'initial'};
 `
 
 const EditorContainer = styled.div`
   padding: 15px;
+  margin-top: ${props => props.isFull ? '50px' : '0'};
 `
 
-export default class EditorComponent extends React.Component<Props> {
+export default class EditorComponent extends React.Component<Props, State> {
+  constructor(props: Props) {
+    super(props);
+
+    this.state = {
+      isFull: false,
+    };
+  }
+
+  goFull = () => {
+    this.setState({ isFull: !this.state.isFull });
+  }
+
   render() {
     const {value, onChange, ...rest} = this.props;
+    const {isFull} = this.state;
+
+    const ToolbarNav = () => (
+      <Toolbar
+        value={value}
+        onChange={onChange}
+        goFull={this.goFull}/>
+    );
+
+    
 
     return (
-      <Container {...rest}>
-        <Toolbar
-          value={value}
-          onChange={onChange}/>
-        <EditorContainer>
-          <Editor 
-            className="markdown-body"
-            value={value}
-            onChange={onChange}
-            plugins={plugins}
-            />
-        </EditorContainer>
-      </Container>
+      <Fullscreen
+        enabled={isFull}
+        onChange={isFull => this.setState({isFull})}
+      >
+        <Container isFull={isFull} {...rest}>
+          {
+            isFull ? (
+              <Affix offsetTop={10}>
+                <ToolbarNav/>
+              </Affix>
+            ) : (
+              <ToolbarNav/>
+            )
+          }
+          <EditorContainer isFull={isFull}>
+            <Editor 
+              className="markdown-body"
+              value={value}
+              onChange={onChange}
+              plugins={plugins}
+              />
+          </EditorContainer>
+        </Container>
+      </Fullscreen>
     );
   }
 }

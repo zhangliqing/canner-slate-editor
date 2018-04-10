@@ -5,6 +5,7 @@ export const Container = styled.div`
   border-radius: 2px 2px 0 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px 1px rgba(0, 0, 0, 0.16);
   line-height: 0px !important;
+  background-color: #FFF;
 
   .topToolbarItem,
   .topToolbarItemActive {

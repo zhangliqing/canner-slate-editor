@@ -3,6 +3,7 @@ import * as React from "react";
 import type {Value, Change} from 'slate';
 import styled from 'styled-components';
 import {Container} from './components/item';
+import FullScreenIcon from './components/fullScreen';
 
 import {AlignCenter, AlignLeft, AlignRight} from '@canner/slate-icon-align';
 import Blockquote from '@canner/slate-icon-blockquote';
@@ -27,7 +28,8 @@ import Video from '@canner/slate-icon-video';
 
 type Props = {
   value: Value,
-  onChange: (change: Change) => void
+  onChange: (change: Change) => void,
+  goFull: () => void
 }
 
 const IconContainer = styled.div`
@@ -54,7 +56,8 @@ const Seperator = styled.div`
 
 export default class Toolbar extends React.Component<Props> {
   render() {
-    const { value, onChange } = this.props;
+    const { value, onChange, goFull } = this.props;
+
     const options = [
       Header1,
       Header2,
@@ -87,7 +90,9 @@ export default class Toolbar extends React.Component<Props> {
       Underline,
       StrikeThrough,
       Clean,
-      Code
+      Code,
+      'seperator',
+      'fullScreen'
     ]
 
     return (
@@ -95,6 +100,14 @@ export default class Toolbar extends React.Component<Props> {
         {options.map((Type, i) => {
           if (Type === 'seperator')
             return <Seperator key={i}/>
+          if (Type === 'fullScreen') {
+            return (
+              <IconContainer
+                key={i}>
+                <FullScreenIcon className="topToolbarItem" goFull={goFull}/>
+              </IconContainer>
+            )
+          }
 
           return (
             <IconContainer
