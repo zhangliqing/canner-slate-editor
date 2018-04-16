@@ -84,7 +84,9 @@ export default class Toolbar extends React.Component<Props> {
     ]
 
     return (
-      <Container onMouseDown={e => e.preventDefault()}>
+      <Container
+        onMouseDown={e => e.preventDefault()}
+        onClick={e => e.preventDefault()}>
         {options.map((Type, i) => {
           if (Type === 'seperator')
             return <Seperator key={i}/>
