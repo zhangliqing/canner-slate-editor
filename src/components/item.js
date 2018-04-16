@@ -7,10 +7,10 @@ export const Container = styled.div`
   line-height: 0px !important;
   background-color: #fff;
 
-  .topToolbarItem,
-  .topToolbarItemActive {
+  .__canner-editor_topToolbarItem,
+  .__canner-editor_topToolbarItemActive {
     display: block;
-    width: 16px;
+    width: 25px;
     margin: 10px;
     text-align: center;
     float: none;

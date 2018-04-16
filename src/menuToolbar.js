@@ -84,7 +84,7 @@ export default class Toolbar extends React.Component<Props> {
     ]
 
     return (
-      <Container>
+      <Container onMouseDown={e => e.preventDefault()}>
         {options.map((Type, i) => {
           if (Type === 'seperator')
             return <Seperator key={i}/>
@@ -92,7 +92,7 @@ export default class Toolbar extends React.Component<Props> {
             return (
               <IconContainer
                 key={i}>
-                <FullScreenIcon className="topToolbarItem" goFull={goFull}/>
+                <FullScreenIcon className="__canner-editor_topToolbarItem" goFull={goFull}/>
               </IconContainer>
             )
           }
@@ -100,11 +100,12 @@ export default class Toolbar extends React.Component<Props> {
           return (
             <IconContainer
               onMouseDown={e => e.preventDefault()}
+              onClick={e => e.preventDefault()}
               key={i}>
               <Type
                 change={value.change()}
                 onChange={onChange}
-                className="topToolbarItem"
+                className="__canner-editor_topToolbarItem"
                 strokeClassName="qlStroke"
                 strokeMitterClassName="qlStrokeMitter"
                 fillClassName="qlFill"
@@ -112,7 +113,7 @@ export default class Toolbar extends React.Component<Props> {
                 colorLabelClassName="qlColorLabel"
                 thinClassName="qlThin"
                 activeStrokeMitterClassName="qlStrokeMitterActive"
-                activeClassName="topToolbarItem topToolbarItemActive"
+                activeClassName="__canner-editor_topToolbarItem __canner-editor_topToolbarItemActive"
                 activeStrokeClassName="qlStrokeActive"
                 activeFillClassName="qlFillActive"
                 activeThinClassName="qlThinActive"

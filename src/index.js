@@ -137,12 +137,9 @@ const sidebarOptions = {
       icon: Blockquote,
       title: "Blockquote"
     }
-  ],
-  leftOffset: 5
+  ]
 };
 
-@toolbar(toolbarOptions)
-@sidebar(sidebarOptions)
 export default class EditorComponent extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -183,15 +180,33 @@ export default class EditorComponent extends React.Component<Props, State> {
             )
           }
           <EditorContainer isFull={isFull}>
-            <Editor 
-              className="markdown-body"
-              value={value}
-              onChange={onChange}
-              plugins={plugins}
-              />
+            <CannerEditor value={value} onChange={onChange}/>
           </EditorContainer>
         </Container>
       </Fullscreen>
     );
+  }
+}
+
+@toolbar(toolbarOptions)
+@sidebar(sidebarOptions)
+class CannerEditor extends React.Component<Props> {
+
+  shouldComponentUpdate(nextProps: Props) {
+    if (this.props.value === nextProps.value)
+      return false
+    return true
+  }
+
+  render() {
+    const {value, onChange} = this.props;
+    return (
+      <Editor 
+        className="markdown-body"
+        value={value}
+        onChange={onChange}
+        plugins={plugins}
+        />
+    )
   }
 }

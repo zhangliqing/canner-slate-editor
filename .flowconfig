@@ -3,6 +3,7 @@
 .*/node_modules/slate-edit-table/.*
 .*/node_modules/slate-edit-list/.*
 .*/node_modules/@canner/slate-editor-renderer/src/.*
+<PROJECT_ROOT>/lib/.*
 
 [include]
 
