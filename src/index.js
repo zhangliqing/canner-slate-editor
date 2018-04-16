@@ -6,21 +6,25 @@ import type {Value, Change} from 'slate';
 import styled from 'styled-components';
 import Fullscreen from "react-full-screen";
 import Toolbar from './menuToolbar';
+import toolbar from 'slate-toolbar';
+import sidebar from 'slate-sidebar';
+import {MarkdownPlugin} from 'slate-md-editor';
 
-import {BlockquotePlugin} from '@canner/slate-icon-blockquote';
-import {BoldPlugin} from '@canner/slate-icon-bold';
-import {CodePlugin} from '@canner/slate-icon-code';
+import Blockquote, {BlockquotePlugin} from '@canner/slate-icon-blockquote';
+import Bold, {BoldPlugin} from '@canner/slate-icon-bold';
+import Code, {CodePlugin} from '@canner/slate-icon-code';
+import Clean from '@canner/slate-icon-clean';
 import {CodeBlockPlugin} from '@canner/slate-icon-codeblock';
 import {FontBgColorPlugin} from '@canner/slate-icon-fontbgcolor';
 import {FontColorPlugin} from '@canner/slate-icon-fontcolor';
-import {HeaderPlugin} from '@canner/slate-icon-header';
-import {HrPlugin} from '@canner/slate-icon-hr';
+import {Header1, Header2, HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from '@canner/slate-icon-header';
+import Hr, {HrPlugin} from '@canner/slate-icon-hr';
 import {ImagePlugin} from '@canner/slate-icon-image';
-import {ItalicPlugin} from '@canner/slate-icon-italic';
+import Italic, {ItalicPlugin} from '@canner/slate-icon-italic';
 import {LinkPlugin} from '@canner/slate-icon-link';
-import {ListPlugin} from '@canner/slate-icon-list';
-import {StrikeThroughPlugin} from '@canner/slate-icon-strikethrough';
-import {UnderlinePlugin} from '@canner/slate-icon-underline';
+import {OlList, UlList, ListPlugin} from '@canner/slate-icon-list';
+import StrikeThrough, {StrikeThroughPlugin} from '@canner/slate-icon-strikethrough';
+import Underline, {UnderlinePlugin} from '@canner/slate-icon-underline';
 import {VideoPlugin} from '@canner/slate-icon-video';
 import {ParagraphPlugin} from '@canner/slate-icon-shared';
 
@@ -40,6 +44,7 @@ import {DEFAULT as DEFAULTBLOCKQUOTE} from '@canner/slate-helper-block-quote';
 import "github-markdown-css";
 
 const plugins = [
+  MarkdownPlugin(),
   EditPrism({
     onlyIn: node => node.type === 'code_block',
     getSyntax: node => node.data.get('syntax')
@@ -64,7 +69,9 @@ const plugins = [
   ItalicPlugin(),
   StrikeThroughPlugin(),
   UnderlinePlugin(),
-  HeaderPlugin(),
+  HeaderOnePlugin(),
+  HeaderTwoPlugin(),
+  HeaderThreePlugin(),
   HrPlugin(),
   ImagePlugin(),
   LinkPlugin(),
@@ -88,10 +95,54 @@ const Container = styled.div`
 `
 
 const EditorContainer = styled.div`
-  padding: 15px;
+  padding: 25px;
   margin-top: ${props => props.isFull ? '50px' : '0'};
 `
 
+const toolbarOptions = {
+  icons: [
+    Bold,
+    Italic,
+    StrikeThrough,
+    Underline,
+    Code,
+    Clean
+  ],
+  position: 'bottom'
+}
+
+const sidebarOptions = {
+  icons: [
+    {
+      icon: OlList,
+      title: "Order List"
+    },
+    {
+      icon: UlList,
+      title: "Unorder List"
+    },
+    {
+      icon: Header1,
+      title: "Header One"
+    },
+    {
+      icon: Header2,
+      title: "Header Two"
+    },
+    {
+      icon: Hr,
+      title: "Ruler"
+    },
+    {
+      icon: Blockquote,
+      title: "Blockquote"
+    }
+  ],
+  leftOffset: 5
+};
+
+@toolbar(toolbarOptions)
+@sidebar(sidebarOptions)
 export default class EditorComponent extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -115,8 +166,6 @@ export default class EditorComponent extends React.Component<Props, State> {
         onChange={onChange}
         goFull={this.goFull}/>
     );
-
-    
 
     return (
       <Fullscreen

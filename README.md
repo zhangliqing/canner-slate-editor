@@ -9,6 +9,13 @@
 $ npm install --save canner-slate-editor
 ```
 
+## Features
+
+- [x] Support full screen edit mode
+- [x] Support inline toolbar
+- [x] Support inline sidebar
+- [x] Support markdown syntax
+
 ## Usage
 
 ```js

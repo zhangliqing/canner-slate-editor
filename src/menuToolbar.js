@@ -7,9 +7,7 @@ import FullScreenIcon from './components/fullScreen';
 
 import {AlignCenter, AlignLeft, AlignRight} from '@canner/slate-icon-align';
 import Blockquote from '@canner/slate-icon-blockquote';
-import Bold from '@canner/slate-icon-bold';
-import Clean from '@canner/slate-icon-clean';
-import Code from '@canner/slate-icon-code';
+
 import CodeBlock from '@canner/slate-icon-codeblock';
 import FontBgColor from '@canner/slate-icon-fontbgcolor';
 import FontColor from '@canner/slate-icon-fontcolor';
@@ -17,11 +15,8 @@ import {Header1, Header2, Header3} from '@canner/slate-icon-header';
 import Hr from '@canner/slate-icon-hr';
 import Image from '@canner/slate-icon-image';
 import {Indent, Outdent} from '@canner/slate-icon-indent';
-import Italic from '@canner/slate-icon-italic';
 import Link from '@canner/slate-icon-link';
 import {OlList, UlList} from '@canner/slate-icon-list';
-import StrikeThrough from '@canner/slate-icon-strikethrough';
-import Underline from '@canner/slate-icon-underline';
 import Undo from '@canner/slate-icon-undo';
 import Redo from '@canner/slate-icon-redo';
 import Video from '@canner/slate-icon-video';
@@ -85,13 +80,6 @@ export default class Toolbar extends React.Component<Props> {
       FontColor,
       FontBgColor,
       'seperator',
-      Bold,
-      Italic,
-      Underline,
-      StrikeThrough,
-      Clean,
-      Code,
-      'seperator',
       'fullScreen'
     ]
 
@@ -111,6 +99,7 @@ export default class Toolbar extends React.Component<Props> {
 
           return (
             <IconContainer
+              onMouseDown={e => e.preventDefault()}
               key={i}>
               <Type
                 change={value.change()}
