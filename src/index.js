@@ -157,13 +157,6 @@ export default class EditorComponent extends React.Component<Props, State> {
     const {value, onChange, ...rest} = this.props;
     const {isFull} = this.state;
 
-    const ToolbarNav = () => (
-      <Toolbar
-        value={value}
-        onChange={onChange}
-        goFull={this.goFull}/>
-    );
-
     return (
       <Fullscreen
         enabled={isFull}
@@ -173,10 +166,16 @@ export default class EditorComponent extends React.Component<Props, State> {
           {
             isFull ? (
               <Affix offsetTop={10}>
-                <ToolbarNav/>
+                <Toolbar
+                  value={value}
+                  onChange={onChange}
+                  goFull={this.goFull}/>
               </Affix>
             ) : (
-              <ToolbarNav/>
+              <Toolbar
+                value={value}
+                onChange={onChange}
+                goFull={this.goFull}/>
             )
           }
           <EditorContainer isFull={isFull}>

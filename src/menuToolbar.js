@@ -84,9 +84,7 @@ export default class Toolbar extends React.Component<Props> {
     ]
 
     return (
-      <Container
-        onMouseDown={e => e.preventDefault()}
-        onClick={e => e.preventDefault()}>
+      <Container>
         {options.map((Type, i) => {
           if (Type === 'seperator')
             return <Seperator key={i}/>
@@ -101,8 +99,6 @@ export default class Toolbar extends React.Component<Props> {
 
           return (
             <IconContainer
-              onMouseDown={e => e.preventDefault()}
-              onClick={e => e.preventDefault()}
               key={i}>
               <Type
                 change={value.change()}
