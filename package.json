@@ -89,6 +89,7 @@
     "@canner/slate-icon-clean": "^1.2.7",
     "@canner/slate-icon-code": "^1.2.7",
     "@canner/slate-icon-codeblock": "^1.2.7",
+    "@canner/slate-icon-table": "^1.2.7",
     "@canner/slate-icon-fontbgcolor": "^1.2.7",
     "@canner/slate-icon-fontcolor": "^1.2.7",
     "@canner/slate-icon-header": "^1.2.7",

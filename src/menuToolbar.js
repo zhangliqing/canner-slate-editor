@@ -7,7 +7,7 @@ import FullScreenIcon from './components/fullScreen';
 
 import {AlignCenter, AlignLeft, AlignRight} from '@canner/slate-icon-align';
 import Blockquote from '@canner/slate-icon-blockquote';
-
+import Table from '@canner/slate-icon-table';
 import CodeBlock from '@canner/slate-icon-codeblock';
 import FontBgColor from '@canner/slate-icon-fontbgcolor';
 import FontColor from '@canner/slate-icon-fontcolor';
@@ -77,6 +77,7 @@ export default class Toolbar extends React.Component<Props> {
       Image,
       Video,
       CodeBlock,
+      Table,
       'seperator',
       FontColor,
       FontBgColor,
