@@ -18,6 +18,7 @@ class DemoEditor extends React.Component<*, {value: Value}> {
 
     return (
       <div style={{margin: '20px'}}>
+        <h1>Canner-slate-editor demo</h1>
         <CannerEditor
           value={value}
           onChange={onChange}

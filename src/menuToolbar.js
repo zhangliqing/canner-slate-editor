@@ -23,6 +23,7 @@ import Video from '@canner/slate-icon-video';
 
 type Props = {
   value: Value,
+  isFull?: boolean,
   onChange: (change: Change) => void,
   goFull: () => void
 }
@@ -51,7 +52,7 @@ const Seperator = styled.div`
 
 export default class Toolbar extends React.Component<Props> {
   render() {
-    const { value, onChange, goFull } = this.props;
+    const { value, onChange, goFull, isFull } = this.props;
 
     const options = [
       Header1,
@@ -92,7 +93,7 @@ export default class Toolbar extends React.Component<Props> {
             return (
               <IconContainer
                 key={i}>
-                <FullScreenIcon className="__canner-editor_topToolbarItem" goFull={goFull}/>
+                <FullScreenIcon className="__canner-editor_topToolbarItem" goFull={goFull} isFull={isFull}/>
               </IconContainer>
             )
           }

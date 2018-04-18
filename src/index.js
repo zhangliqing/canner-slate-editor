@@ -1,10 +1,8 @@
 // @flow
 import * as React from "react";
 import { Editor } from "slate-react";
-import { Affix } from 'antd';
 import type {Value, Change} from 'slate';
 import styled from 'styled-components';
-import Fullscreen from "react-full-screen";
 import Toolbar from './menuToolbar';
 import toolbar from 'slate-toolbar';
 import sidebar from 'slate-sidebar';
@@ -89,14 +87,29 @@ type State = {
 }
 
 const Container = styled.div`
+  ${props => props.isFull && (`
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000
+  `)}
+  background-color: #FFF;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 1px 1px rgba(0,0,0,0.16);
-  height: ${props => props.isFull ? '100vh' : 'auto'};
   overflow-y: ${props => props.isFull ? 'scroll' : 'initial'};
 `
 
 const EditorContainer = styled.div`
   padding: 25px;
-  margin-top: ${props => props.isFull ? '50px' : '0'};
+  margin-top: ${props => props.isFull ? '30px' : '0'};
+`
+
+const FixedToolbar = styled.div`
+  position: fixed;
+  top: 10px;
+  z-index: 10;
+  width: 100%;
 `
 
 const toolbarOptions = {
@@ -158,31 +171,27 @@ export default class EditorComponent extends React.Component<Props, State> {
     const {isFull} = this.state;
 
     return (
-      <Fullscreen
-        enabled={isFull}
-        onChange={isFull => this.setState({isFull})}
-      >
-        <Container isFull={isFull} {...rest}>
-          {
-            isFull ? (
-              <Affix offsetTop={10}>
-                <Toolbar
-                  value={value}
-                  onChange={onChange}
-                  goFull={this.goFull}/>
-              </Affix>
-            ) : (
+      <Container isFull={isFull} {...rest}>
+        {
+          isFull ? (
+            <FixedToolbar>
               <Toolbar
+                isFull={true}
                 value={value}
                 onChange={onChange}
                 goFull={this.goFull}/>
-            )
-          }
-          <EditorContainer isFull={isFull}>
-            <CannerEditor value={value} onChange={onChange}/>
-          </EditorContainer>
-        </Container>
-      </Fullscreen>
+            </FixedToolbar>
+          ) : (
+            <Toolbar
+              value={value}
+              onChange={onChange}
+              goFull={this.goFull}/>
+          )
+        }
+        <EditorContainer isFull={isFull}>
+          <CannerEditor value={value} onChange={onChange}/>
+        </EditorContainer>
+      </Container>
     );
   }
 }
