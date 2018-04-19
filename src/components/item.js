@@ -16,6 +16,11 @@ export const Container = styled.div`
     float: none;
   }
 
+  .__canner-editor_topToolbarItemDisabled > * {
+    stroke: #CCC !important;
+    cursor: not-allowed;
+  }
+
   .qlStroke {
     stroke: #444;
     fill: transparent;

@@ -7,6 +7,7 @@ import Toolbar from './menuToolbar';
 import toolbar from 'slate-toolbar';
 import sidebar from 'slate-sidebar';
 import {MarkdownPlugin} from 'slate-md-editor';
+import {BLOCKS} from '@canner/slate-constant';
 
 import Blockquote, {BlockquotePlugin} from '@canner/slate-icon-blockquote';
 import Bold, {BoldPlugin} from '@canner/slate-icon-bold';
@@ -81,7 +82,8 @@ const plugins = [
 
 type Props = {
   value: Value,
-  onChange: (change: Change) => void
+  onChange: (change: Change) => void,
+  serviceConfig?: any
 }
 
 type State = {
@@ -104,7 +106,7 @@ const Container = styled.div`
 
 const EditorContainer = styled.div`
   padding: 25px;
-  margin-top: ${props => props.isFull ? '30px' : '0'};
+  margin-top: ${props => props.isFull ? '60px' : '10px'};
 `
 
 const FixedToolbar = styled.div`
@@ -123,7 +125,17 @@ const toolbarOptions = {
     Code,
     Clean
   ],
-  position: 'bottom'
+  position: 'top',
+  disabledTypes: [
+    BLOCKS.CODE,
+    BLOCKS.CODE_LINE,
+    BLOCKS.HEADING_1,
+    BLOCKS.HEADING_2,
+    BLOCKS.HEADING_3,
+    BLOCKS.HEADING_4,
+    BLOCKS.HEADING_5,
+    BLOCKS.HEADING_6
+  ]
 }
 
 const sidebarOptions = {
@@ -169,7 +181,7 @@ export default class EditorComponent extends React.Component<Props, State> {
   }
 
   render() {
-    const {value, onChange, ...rest} = this.props;
+    const {value, onChange, serviceConfig, ...rest} = this.props;
     const {isFull} = this.state;
 
     return (
@@ -180,11 +192,13 @@ export default class EditorComponent extends React.Component<Props, State> {
               <Toolbar
                 isFull={true}
                 value={value}
+                serviceConfig={serviceConfig}
                 onChange={onChange}
                 goFull={this.goFull}/>
             </FixedToolbar>
           ) : (
             <Toolbar
+              serviceConfig={serviceConfig}
               value={value}
               onChange={onChange}
               goFull={this.goFull}/>

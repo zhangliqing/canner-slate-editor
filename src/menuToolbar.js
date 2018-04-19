@@ -25,7 +25,8 @@ type Props = {
   value: Value,
   isFull?: boolean,
   onChange: (change: Change) => void,
-  goFull: () => void
+  goFull: () => void,
+  serviceConfig: any
 }
 
 const IconContainer = styled.div`
@@ -52,9 +53,12 @@ const Seperator = styled.div`
 
 export default class Toolbar extends React.Component<Props> {
   render() {
-    const { value, onChange, goFull, isFull } = this.props;
+    const { value, onChange, goFull, isFull, serviceConfig } = this.props;
 
     const options = [
+      Undo,
+      Redo,
+      'seperator',
       Header1,
       Header2,
       Header3,
@@ -70,11 +74,8 @@ export default class Toolbar extends React.Component<Props> {
       OlList,
       UlList,
       'seperator',
-      Undo,
-      Redo,
-      'seperator',
       Link,
-      Image,
+      'image',
       Video,
       CodeBlock,
       Table,
@@ -99,6 +100,11 @@ export default class Toolbar extends React.Component<Props> {
             )
           }
 
+          // special plugin
+          if (Type === 'image') {
+            Type = Image
+          }
+
           return (
             <IconContainer
               key={i}>
@@ -106,7 +112,9 @@ export default class Toolbar extends React.Component<Props> {
                 change={value.change()}
                 onChange={onChange}
                 className="__canner-editor_topToolbarItem"
+                disableClassName="__canner-editor_topToolbarItemDisabled"
                 strokeClassName="qlStroke"
+                serviceConfig={Type === 'image' && serviceConfig}
                 strokeMitterClassName="qlStrokeMitter"
                 fillClassName="qlFill"
                 evenClassName="qlEven"

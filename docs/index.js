@@ -22,6 +22,15 @@ class DemoEditor extends React.Component<*, {value: Value}> {
         <CannerEditor
           value={value}
           onChange={onChange}
+          serviceConfig={{
+            name: 'image',
+            accept: 'image/*',
+            action: 'https://api.imgur.com/3/image',
+            headers: {
+              'Authorization': 'Client-ID a214c4836559c77',
+              'X-Requested-With': null
+            }
+          }}
           />
       </div>
     );
