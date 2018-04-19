@@ -14,7 +14,7 @@ $ npm install --save canner-slate-editor
 - [x] Support full screen edit mode
 - [x] Support inline toolbar
 - [x] Support inline sidebar
-- [x] Support markdown syntax
+- [x] Support markdown syntax, support list: https://github.com/Canner/slate-md-editor#feature-toc
 
 ## Usage
 
