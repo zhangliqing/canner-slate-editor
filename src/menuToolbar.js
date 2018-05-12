@@ -82,9 +82,9 @@ export default class Toolbar extends React.Component<Props> {
       'seperator',
       FontColor,
       FontBgColor,
-      'seperator',
-      'fullScreen'
+      'seperator'
     ]
+    //'fullScreen'
 
     return (
       <Container>

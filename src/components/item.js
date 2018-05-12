@@ -17,7 +17,7 @@ export const Container = styled.div`
   }
 
   .__canner-editor_topToolbarItemDisabled > * {
-    stroke: #CCC !important;
+    stroke: #ccc !important;
     cursor: not-allowed;
   }
 

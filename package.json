@@ -1,11 +1,11 @@
 {
-  "name": "canner-slate-editor",
-  "version": "0.4.1",
+  "name": "kf-slate-editor",
+  "version": "0.0.1",
   "description": "Another rich text editor using Slate framework with toolbar support",
   "homepage": "",
   "author": {
-    "name": "Canner",
-    "email": "chilijung@gmail.com",
+    "name": "zlq",
+    "email": "zlquser@gmail.com",
     "url": ""
   },
   "files": [

@@ -187,7 +187,14 @@ export default class EditorComponent extends React.Component<Props, State> {
     return (
       <Container isFull={isFull} {...rest}>
         {
-          isFull ? (
+          <FixedToolbar>
+            <Toolbar
+              value={value}
+              serviceConfig={serviceConfig}
+              onChange={onChange}
+            />
+          </FixedToolbar>
+          /*isFull ? (
             <FixedToolbar>
               <Toolbar
                 isFull={true}
@@ -202,7 +209,7 @@ export default class EditorComponent extends React.Component<Props, State> {
               value={value}
               onChange={onChange}
               goFull={this.goFull}/>
-          )
+          )*/
         }
         <EditorContainer isFull={isFull}>
           <CannerEditor value={value} onChange={onChange}/>
