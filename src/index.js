@@ -1,5 +1,6 @@
 // @flow
 import * as React from "react";
+import ReactDOM from "react-dom";
 import { Editor } from "slate-react";
 import type {Value, Change} from 'slate';
 import styled from 'styled-components';
@@ -87,7 +88,8 @@ type Props = {
 }
 
 type State = {
-  isFull: boolean
+  isFull: boolean,
+  isSticky:boolean
 }
 
 const Container = styled.div`
@@ -109,11 +111,16 @@ const EditorContainer = styled.div`
   margin-top: ${props => props.isFull ? '60px' : '10px'};
 `
 
+//position: absolute;
+//top: 10px;
+//position: ${props => props.isSticky ? 'fixed':'absolute'};
 const FixedToolbar = styled.div`
-  position: fixed;
-  top: 10px;
+  ${props => props.isSticky && (`
+    position: fixed;
+    top: 10px;
+  `)}
   z-index: 10;
-  width: 100%;
+  width: 90%;
 `
 
 const toolbarOptions = {
@@ -170,10 +177,26 @@ const sidebarOptions = {
 export default class EditorComponent extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
-
+    this.fixedToolbarRef = React.createRef();
     this.state = {
       isFull: false,
+      isSticky:false
     };
+  }
+
+  handleScroll = () => {
+    var sticky = this.fixedToolbarRef.current.offsetTop;
+    if(window.pageYOffset >= sticky){
+      this.setState({isSticky:true})
+    }else {
+      this.setState({isSticky:false})
+    }
+  }
+  componentDidMount(){
+    window.addEventListener('scroll',this.handleScroll)
+  }
+  componentWillUnmount(){
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   goFull = () => {
@@ -182,18 +205,12 @@ export default class EditorComponent extends React.Component<Props, State> {
 
   render() {
     const {value, onChange, serviceConfig, ...rest} = this.props;
-    const {isFull} = this.state;
+    const {isFull,isSticky} = this.state;
 
     return (
-      <Container isFull={isFull} {...rest}>
+      <Container isFull={isFull} isSticky={isSticky} {...rest}>
         {
-          <FixedToolbar>
-            <Toolbar
-              value={value}
-              serviceConfig={serviceConfig}
-              onChange={onChange}
-            />
-          </FixedToolbar>
+
           /*isFull ? (
             <FixedToolbar>
               <Toolbar
@@ -211,7 +228,16 @@ export default class EditorComponent extends React.Component<Props, State> {
               goFull={this.goFull}/>
           )*/
         }
-        <EditorContainer isFull={isFull}>
+        <EditorContainer isFull={isFull} isSticky={isSticky}>
+          <div ref={this.fixedToolbarRef}>
+          <FixedToolbar isSticky={isSticky}>
+            <Toolbar
+              value={value}
+              serviceConfig={serviceConfig}
+              onChange={onChange}
+            />
+          </FixedToolbar>
+          </div>
           <CannerEditor value={value} onChange={onChange}/>
         </EditorContainer>
       </Container>
