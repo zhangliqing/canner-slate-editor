@@ -120,7 +120,7 @@ const FixedToolbar = styled.div`
     top: 10px;
   `)}
   z-index: 10;
-  width: 90%;
+  width: 100%;
 `
 
 const toolbarOptions = {
