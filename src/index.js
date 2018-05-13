@@ -120,7 +120,7 @@ const FixedToolbar = styled.div`
     top: 10px;
   `)}
   z-index: 10;
-  width: ${props => props.isSticky ? '90%':'100%'}
+  width: ${props => props.isSticky ? '650px':'100%'}
   margin-bottom: 30px;
 `
 
