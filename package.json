@@ -106,6 +106,7 @@
     "@canner/slate-icon-undo": "^1.2.8",
     "@canner/slate-icon-video": "^1.2.8",
     "github-markdown-css": "^2.10.0",
+    "jquery": "^3.3.1",
     "prismjs": "^1.13.0",
     "slate-edit-blockquote": "^0.5.0",
     "slate-edit-code": "^0.15.0",
@@ -115,6 +116,8 @@
     "slate-sidebar": "^0.2.4",
     "slate-toolbar": "^0.11.0",
     "slate-trailing-block": "^0.5.0",
-    "styled-components": "^3.2.3"
+    "sockjs-client": "^1.1.4",
+    "styled-components": "^3.2.3",
+    "xterm": "^3.3.0"
   }
 }

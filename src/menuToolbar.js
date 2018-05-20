@@ -20,6 +20,8 @@ import {OlList, UlList} from '@canner/slate-icon-list';
 import Undo from '@canner/slate-icon-undo';
 import Redo from '@canner/slate-icon-redo';
 import Video from '@canner/slate-icon-video';
+import {Terminal} from './components/terminal';
+
 
 type Props = {
   value: Value,
@@ -82,7 +84,8 @@ export default class Toolbar extends React.Component<Props> {
       'seperator',
       FontColor,
       FontBgColor,
-      'seperator'
+      'seperator',
+      'Terminal'
     ]
     //'fullScreen'
 
@@ -99,7 +102,18 @@ export default class Toolbar extends React.Component<Props> {
               </IconContainer>
             )
           }
-
+          if(Type === 'Terminal'){
+            return(
+              <IconContainer
+              key={i}>
+                <Terminal
+                  className="__canner-editor_topToolbarItem fa-stack fa-lg"
+                  change={value.change()}
+                  onChange={onChange}
+                />
+              </IconContainer>
+            )
+          }
           // special plugin
           if (Type === 'image') {
             Type = Image
@@ -134,3 +148,4 @@ export default class Toolbar extends React.Component<Props> {
     );
   }
 }
+

@@ -36,6 +36,8 @@ import EditPrism from 'slate-prism'
 import EditCode from 'slate-edit-code'
 import TrailingBlock from 'slate-trailing-block'
 
+import {TerminalPlugin} from './components/terminal';
+
 import "prismjs/themes/prism.css"
 
 // default value
@@ -78,7 +80,8 @@ const plugins = [
   ImagePlugin(),
   LinkPlugin(),
   ListPlugin(),
-  VideoPlugin()
+  VideoPlugin(),
+  TerminalPlugin()
 ];
 
 type Props = {
