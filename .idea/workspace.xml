@@ -2,171 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d02182b-ff71-44a0-8050-f2bc46e79667" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.test.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.test.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.test.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/search/SearchHelper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/search/SearchHelper.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/search/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/search/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/search/search.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/search/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.test.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/webLinks/webLinks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/webLinks/webLinks.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.test.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/xterm.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/xterm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/dist/xterm.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/jsdoc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/AccessibilityManager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Buffer.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Buffer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/BufferSet.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/BufferSet.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/CharWidth.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Charsets.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/CompositionHelper.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/CompositionHelper.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/EscapeSequences.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/EventEmitter.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/EventEmitter.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/InputHandler.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/InputHandler.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Linkifier.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Linkifier.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Parser.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/SelectionManager.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/SelectionManager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/SelectionModel.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/SelectionModel.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/SoundManager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Strings.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Terminal.integration.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Terminal.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Terminal.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/Viewport.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/attach/Interfaces.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/attach/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/attach/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fit/fit.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fit/fit.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fit/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fit/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/fullscreen.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/fullscreen.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/search/Interfaces.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/search/SearchHelper.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/search/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/search/search.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/search/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/Interfaces.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/terminado.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/terminado.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/webLinks.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/webLinks.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/Interfaces.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/winptyCompat.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/winptyCompat.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/zmodem.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/zmodem.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/handlers/AltClickHandler.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/handlers/Clipboard.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/handlers/Clipboard.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/input/MouseZoneManager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/input/Types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/BaseRenderLayer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/ColorManager.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/ColorManager.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/CursorRenderLayer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/GridCache.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/GridCache.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/LinkRenderLayer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/Renderer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/SelectionRenderLayer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/TextRenderLayer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/Types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/atlas/CharAtlas.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/atlas/CharAtlasUtils.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/renderer/atlas/Types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/shared/Types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/shared/atlas/CharAtlasGenerator.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/shared/atlas/Types.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/shared/utils/Browser.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/CharMeasure.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/CharMeasure.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/CircularList.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/CircularList.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/Clone.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/Clone.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/Dom.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/MouseHelper.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/MouseHelper.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/RenderDebouncer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/ScreenDprMonitor.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/utils/TestUtils.test.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/xterm.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/src/xterm.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/tslint.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/typings/xterm.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/xterm/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menuToolbar.js" afterPath="$PROJECT_DIR$/src/menuToolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Xterm.js" afterPath="$PROJECT_DIR$/src/components/Xterm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/terminal.js" afterPath="$PROJECT_DIR$/src/components/terminal.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -185,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1881">
-              <caret line="267" column="27" lean-forward="true" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
+              <caret line="267" column="27" lean-forward="false" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
               <folding>
                 <element signature="e#9#40#0" expanded="true" />
                 <element signature="e#1884#1955#0" expanded="true" />
@@ -211,14 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terminal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="terminal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/terminal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-              <folding>
-                <element signature="e#57#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,12 +62,43 @@
       <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="1107">
+              <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
               <folding>
-                <element signature="e#48#79#0" expanded="true" />
-                <element signature="e#253#317#0" expanded="true" />
+                <element signature="e#57#88#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attach.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="60" column="62" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attach.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1201">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attach.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -280,9 +147,11 @@
         <option value="$PROJECT_DIR$/node_modules/xterm/lib/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/node_modules/xterm/lib/Terminal.js" />
         <option value="$PROJECT_DIR$/node_modules/xterm/dist/addons/attach/attach.js" />
-        <option value="$PROJECT_DIR$/src/components/Xterm.js" />
         <option value="$PROJECT_DIR$/src/menuToolbar.js" />
         <option value="$PROJECT_DIR$/src/components/terminal.js" />
+        <option value="$PROJECT_DIR$/src/components/Xterm.js" />
+        <option value="$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js" />
+        <option value="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
       </list>
     </option>
   </component>
@@ -381,6 +250,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xterm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xterm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xterm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xterm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -401,6 +366,7 @@
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -504,17 +470,18 @@
       <workItem from="1526622228283" duration="19053000" />
       <workItem from="1526715527652" duration="7221000" />
       <workItem from="1526802903192" duration="7361000" />
-      <workItem from="1526823966200" duration="1597000" />
+      <workItem from="1526823966200" duration="2159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58319000" />
+    <option name="totallyTimeSpent" value="58881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-370" y="-1080" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13164824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -547,14 +514,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14744">
@@ -623,8 +582,7 @@
         <state relative-caret-position="608">
           <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
-            <element signature="e#48#79#0" expanded="true" />
-            <element signature="e#253#317#0" expanded="true" />
+            <element signature="e#57#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -929,13 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="58" column="62" lean-forward="false" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/sockjs-client/dist/sockjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -989,14 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1013,21 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="e#48#79#0" expanded="true" />
-            <element signature="e#253#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1881">
-          <caret line="267" column="27" lean-forward="true" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
+          <caret line="267" column="27" lean-forward="false" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
           <folding>
             <element signature="e#9#40#0" expanded="true" />
             <element signature="e#1884#1955#0" expanded="true" />
@@ -1060,10 +992,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/terminal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="380">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
           <folding>
             <element signature="e#57#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="60" column="62" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1201">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

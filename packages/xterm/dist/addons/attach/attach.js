@@ -57,9 +57,8 @@ function attach(term, socket, bidirectional, buffered) {
         if (socket.readyState !== 1) {
             return;
         }
-      
-      //let newData = "\"Op\":\"stdin\",\"data\":" + data + "}"
-        console.log(newData)
+
+      let newData = JSON.stringify({Op: 'stdin', data: data});
         socket.send(newData);
 
       //socket.send(data);
