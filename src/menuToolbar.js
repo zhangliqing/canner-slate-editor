@@ -21,7 +21,7 @@ import Undo from '@canner/slate-icon-undo';
 import Redo from '@canner/slate-icon-redo';
 import Video from '@canner/slate-icon-video';
 import {Terminal} from './components/terminal';
-
+import './fontawesome.min.css';
 
 type Props = {
   value: Value,

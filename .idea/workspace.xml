@@ -2,170 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d02182b-ff71-44a0-8050-f2bc46e79667" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.test.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.test.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.test.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/SearchHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/SearchHelper.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/search.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.test.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/webLinks/webLinks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/webLinks/webLinks.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.test.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.test.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/xterm.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/xterm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/dist/xterm.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/jsdoc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/AccessibilityManager.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Buffer.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Buffer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/BufferSet.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/BufferSet.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/CharWidth.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Charsets.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/CompositionHelper.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/CompositionHelper.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/EscapeSequences.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/EventEmitter.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/EventEmitter.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/InputHandler.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/InputHandler.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Linkifier.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Linkifier.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Parser.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/SelectionManager.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/SelectionManager.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/SelectionModel.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/SelectionModel.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/SoundManager.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Strings.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Terminal.integration.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Terminal.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Terminal.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Types.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/Viewport.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/Interfaces.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/attach.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/attach.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/fit.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/fit.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/fullscreen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/fullscreen.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/fullscreen.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/search/Interfaces.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/search/SearchHelper.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/search/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/search/search.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/search/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/Interfaces.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/terminado.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/terminado.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/webLinks.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/webLinks.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/Interfaces.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/winptyCompat.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/winptyCompat.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/zmodem.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/zmodem.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/handlers/AltClickHandler.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/handlers/Clipboard.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/handlers/Clipboard.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/input/MouseZoneManager.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/input/Types.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/BaseRenderLayer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/ColorManager.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/ColorManager.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/CursorRenderLayer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/GridCache.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/GridCache.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/LinkRenderLayer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/Renderer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/SelectionRenderLayer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/TextRenderLayer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/Types.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/atlas/CharAtlas.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/atlas/CharAtlasUtils.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/renderer/atlas/Types.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/shared/Types.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/shared/atlas/CharAtlasGenerator.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/shared/atlas/Types.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/shared/utils/Browser.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/CharMeasure.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/CharMeasure.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/CircularList.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/CircularList.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/Clone.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/Clone.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/Dom.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/MouseHelper.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/MouseHelper.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/RenderDebouncer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/ScreenDprMonitor.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/utils/TestUtils.test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/xterm.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/src/xterm.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/tslint.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/typings/xterm.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/xterm/webpack.config.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Xterm.js" afterPath="$PROJECT_DIR$/src/components/Xterm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/terminal.js" afterPath="$PROJECT_DIR$/src/components/terminal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menuToolbar.js" afterPath="$PROJECT_DIR$/src/menuToolbar.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -197,24 +37,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="menuToolbar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="437">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
-                <element signature="e#9#40#0" expanded="true" />
-                <element signature="e#1774#2226#0" expanded="false" />
+                <element signature="e#1805#2257#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="terminal.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="terminal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/terminal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="95">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -230,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="-449">
               <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding>
                 <element signature="e#250#303#0" expanded="true" />
@@ -292,16 +141,16 @@
         <option value="$PROJECT_DIR$/node_modules/@canner/slate-icon-header/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/node_modules/@canner/slate-icon-hr/src/index.js" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/node_modules/xterm/lib/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/node_modules/xterm/lib/Terminal.js" />
         <option value="$PROJECT_DIR$/node_modules/xterm/dist/addons/attach/attach.js" />
-        <option value="$PROJECT_DIR$/src/menuToolbar.js" />
         <option value="$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/terminal.js" />
         <option value="$PROJECT_DIR$/src/components/Xterm.js" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/src/menuToolbar.js" />
+        <option value="$PROJECT_DIR$/src/components/terminal.js" />
       </list>
     </option>
   </component>
@@ -401,47 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf-slate-editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf-slate-editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf-xterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf-slate-editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf-slate-editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kf-xterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,6 +272,9 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
@@ -567,12 +379,12 @@
       <workItem from="1526715527652" duration="7221000" />
       <workItem from="1526802903192" duration="7361000" />
       <workItem from="1526823966200" duration="7133000" />
-      <workItem from="1526878588041" duration="688000" />
+      <workItem from="1526878588041" duration="1786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64543000" />
+    <option name="totallyTimeSpent" value="65641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-370" y="-1080" width="1920" height="1080" extended-state="6" />
@@ -613,28 +425,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="122" column="40" lean-forward="false" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
-          <folding>
-            <element signature="e#9#40#0" expanded="true" />
-            <element signature="e#1884#1955#0" expanded="true" />
-            <element signature="e#2083#2873#0" expanded="false" />
-            <element signature="e#3789#4096#0" expanded="false" />
-            <element signature="e#4121#4491#0" expanded="false" />
-            <element signature="e#4509#6354#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -667,6 +457,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#9#35#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,8 +503,7 @@
         <state relative-caret-position="1558">
           <caret line="102" column="27" lean-forward="true" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
           <folding>
-            <element signature="e#9#40#0" expanded="true" />
-            <element signature="e#1774#2226#0" expanded="false" />
+            <element signature="e#1805#2257#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -743,8 +535,7 @@
         <state relative-caret-position="1254">
           <caret line="86" column="18" lean-forward="false" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
           <folding>
-            <element signature="e#9#40#0" expanded="true" />
-            <element signature="e#1774#2226#0" expanded="false" />
+            <element signature="e#1805#2257#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -879,6 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,6 +678,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-235">
           <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#9#35#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,32 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="102" lean-forward="false" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/xterm/lib/Terminal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="167" column="28" lean-forward="false" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="267" column="27" lean-forward="false" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
-          <folding>
-            <element signature="e#9#40#0" expanded="true" />
-            <element signature="e#1884#1955#0" expanded="true" />
-            <element signature="e#2083#2873#0" expanded="false" />
-            <element signature="e#3789#4096#0" expanded="false" />
-            <element signature="e#4121#4491#0" expanded="false" />
-            <element signature="e#4509#6354#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,17 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="e#9#40#0" expanded="true" />
-            <element signature="e#1774#2226#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/xterm/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1012,21 +774,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/terminal.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="2185">
+          <caret line="267" column="27" lean-forward="false" selection-start-line="267" selection-start-column="27" selection-end-line="267" selection-end-column="27" />
+          <folding>
+            <element signature="e#9#40#0" expanded="true" />
+            <element signature="e#1884#1955#0" expanded="true" />
+            <element signature="e#2083#2873#0" expanded="false" />
+            <element signature="e#3789#4096#0" expanded="false" />
+            <element signature="e#4121#4491#0" expanded="false" />
+            <element signature="e#4509#6354#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="-449">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
             <element signature="e#250#303#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fontawesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#1805#2257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/terminal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

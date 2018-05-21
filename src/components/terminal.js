@@ -5,6 +5,7 @@
 import * as React from "react";
 import Xterm from "./Xterm";
 import "kf-xterm/lib/xterm.css";
+import "../fontawesome.min.css";
 
 export const TerminalPlugin = () => {
   return {
