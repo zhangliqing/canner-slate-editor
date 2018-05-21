@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d02182b-ff71-44a0-8050-f2bc46e79667" name="Default" comment="" />
+    <list default="true" id="3d02182b-ff71-44a0-8050-f2bc46e79667" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -67,8 +69,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="37" />
+            <state relative-caret-position="113">
+              <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -161,11 +163,11 @@
         <option value="$PROJECT_DIR$/node_modules/xterm/dist/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Xterm.js" />
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/src/menuToolbar.js" />
         <option value="$PROJECT_DIR$/src/components/terminal.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -407,12 +409,12 @@
       <workItem from="1526715527652" duration="7221000" />
       <workItem from="1526802903192" duration="7361000" />
       <workItem from="1526823966200" duration="7133000" />
-      <workItem from="1526878588041" duration="3437000" />
+      <workItem from="1526878588041" duration="4042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67292000" />
+    <option name="totallyTimeSpent" value="67897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -849,8 +851,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="37" />
+        <state relative-caret-position="113">
+          <caret line="62" column="35" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="35" />
           <folding />
         </state>
       </provider>
