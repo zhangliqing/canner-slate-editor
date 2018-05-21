@@ -26,49 +26,43 @@ class Xterm extends React.Component<any> {
   constructor(props: any) {
     super(props);
     this.state = {
-      xterm: ""
+      xterm: null
     };
   }
 
   componentDidMount() {
     if (this.props.addons) {
-      //添加addon
       this.props.addons.forEach(s => {
         const addon = require(`../../packages/xterm/dist/addons/${s}/${s}`);
         Terminal.applyAddon(addon);
       });
     }
-    this.state.xterm = new Terminal({
-      cursorBlink: true
-    });
-    this.state.xterm.open(this.container);
-    this.state.xterm.winptyCompatInit();
-    this.state.xterm.webLinksInit();
-    this.state.xterm.fit();
-    this.state.xterm.focus();
-
-    var socket;
-    $.ajax({
-      method: "GET",
-      url:
-        "http://wss.kfcoding.com:30081/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
-      //url: "http://120.132.94.141:9090/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
-      success: res => {
-        socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + res.id);
-        socket.onopen = () => {
-          socket.send(JSON.stringify({ Op: "bind", SessionID: res.id }));
-          socket.send(JSON.stringify({ Op: "resize", Cols: 80, Rows: 24 }));
-          this.state.xterm.attach(socket);
-          //this.xterm._initialized = true;
-        };
-        /*socket.onmessage = function(e) {
-          console.log("message", e.data);
-        };*/
-      },
-      error: () => {
-        console.log("error");
-      }
-    });
+    this.setState({xterm: new Terminal({cursorBlink: true})},() => {
+      this.state.xterm.open(this.container);
+      this.state.xterm.winptyCompatInit();
+      this.state.xterm.webLinksInit();
+      this.state.xterm.fit();
+      this.state.xterm.focus();
+      var socket;
+      $.ajax({
+        method: "GET",
+        url:
+          "http://wss.kfcoding.com:30081/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
+        //url: "http://120.132.94.141:9090/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
+        success: res => {
+          socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + res.id);
+          socket.onopen = () => {
+            socket.send(JSON.stringify({ Op: "bind", SessionID: res.id }));
+            socket.send(JSON.stringify({ Op: "resize", Cols: 80, Rows: 24 }));
+            this.state.xterm.attach(socket);
+            //this.xterm._initialized = true;
+          };
+          /*socket.onmessage = function(e) {
+           console.log("message", e.data);
+           };*/
+        }
+      });
+    })
   }
 
   componentWillUnmount() {
@@ -78,7 +72,7 @@ class Xterm extends React.Component<any> {
     }
   }
 
-  shouldComponentUpdate(nextProps:any) {
+  shouldComponentUpdate(nextProps: any) {
     if (
       nextProps.hasOwnProperty("value") &&
       nextProps.value != this.props.value

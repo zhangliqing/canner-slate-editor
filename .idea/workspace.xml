@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d02182b-ff71-44a0-8050-f2bc46e79667" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" afterPath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Xterm.js" afterPath="$PROJECT_DIR$/src/components/Xterm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/terminal.js" afterPath="$PROJECT_DIR$/src/components/terminal.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,13 +57,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1107">
-              <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+            <state relative-caret-position="453">
+              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
               <folding>
                 <element signature="e#57#88#0" expanded="true" />
+                <element signature="e#1553#2298#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -81,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attach.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="attach.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1201">
+            <state relative-caret-position="-2156">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -149,9 +148,9 @@
         <option value="$PROJECT_DIR$/node_modules/xterm/dist/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/src/menuToolbar.js" />
         <option value="$PROJECT_DIR$/src/components/terminal.js" />
-        <option value="$PROJECT_DIR$/src/components/Xterm.js" />
         <option value="$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
+        <option value="$PROJECT_DIR$/src/components/Xterm.js" />
       </list>
     </option>
   </component>
@@ -470,15 +469,15 @@
       <workItem from="1526622228283" duration="19053000" />
       <workItem from="1526715527652" duration="7221000" />
       <workItem from="1526802903192" duration="7361000" />
-      <workItem from="1526823966200" duration="2159000" />
+      <workItem from="1526823966200" duration="3215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58881000" />
+    <option name="totallyTimeSpent" value="59937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-370" y="-1080" width="1920" height="1080" extended-state="6" />
+    <frame x="-370" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -583,6 +582,7 @@
           <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
             <element signature="e#57#88#0" expanded="true" />
+            <element signature="e#1553#2298#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -998,16 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
-          <folding>
-            <element signature="e#57#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1026,10 +1016,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1201">
+        <state relative-caret-position="-2156">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="e#57#88#0" expanded="true" />
+            <element signature="e#1553#2298#0" expanded="false" />
           </folding>
         </state>
       </provider>
