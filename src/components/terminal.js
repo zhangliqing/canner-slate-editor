@@ -4,7 +4,7 @@
 // @flow
 import * as React from "react";
 import Xterm from "./Xterm";
-import "../../packages/xterm/dist/xterm.css";
+import "../packages/xterm/dist/xterm.css";
 
 export const TerminalPlugin = () => {
   return {
