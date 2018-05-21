@@ -1,6 +1,6 @@
 {
   "name": "kf-slate-editor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Another rich text editor using Slate framework with toolbar support",
   "homepage": "",
   "author": {
