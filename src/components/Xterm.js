@@ -3,17 +3,17 @@
  */
 // @flow
 import * as React from "react";
-import { Terminal } from "../packages/xterm";
+import { Terminal } from "./xterm/lib/Terminal";
 import SockJS from "sockjs-client/dist/sockjs.min";
 import $ from "jquery";
 
 //import * as Terminal from 'xterm/lib/xterm';
-import * as attach from "../packages/xterm/lib/addons/attach";
-import * as fit from "../packages/xterm/lib/addons/fit/fit";
-import * as fullscreen from "../packages/xterm/lib/addons/fullscreen/fullscreen";
-import * as search from "../packages/xterm/lib/addons/search/search";
-import * as webLinks from "../packages/xterm/lib/addons/webLinks/webLinks";
-import * as winptyCompat from "../packages/xterm/lib/addons/winptyCompat/winptyCompat";
+import * as attach from "./xterm/lib/addons/attach";
+import * as fit from "./xterm/lib/addons/fit/fit";
+import * as fullscreen from "./xterm/lib/addons/fullscreen/fullscreen";
+import * as search from "./xterm/lib/addons/search/search";
+import * as webLinks from "./xterm/lib/addons/webLinks/webLinks";
+import * as winptyCompat from "./xterm/lib/addons/winptyCompat/winptyCompat";
 
 Terminal.applyAddon(attach);
 Terminal.applyAddon(fit);
@@ -33,7 +33,7 @@ class Xterm extends React.Component<any> {
   componentDidMount() {
     if (this.props.addons) {
       this.props.addons.forEach(s => {
-        const addon = require(`../packages/xterm/dist/addons/${s}/${s}`);
+        const addon = require(`./xterm/dist/addons/${s}/${s}`);
         Terminal.applyAddon(addon);
       });
     }

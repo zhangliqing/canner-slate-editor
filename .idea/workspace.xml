@@ -2,166 +2,166 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d02182b-ff71-44a0-8050-f2bc46e79667" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/LICENSE" afterPath="$PROJECT_DIR$/src/packages/xterm/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/README.md" afterPath="$PROJECT_DIR$/src/packages/xterm/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.test.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.test.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.test.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/attach/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.test.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/fit.test.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.test.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fit/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.css" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.test.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/fullscreen.test.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.test.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/fullscreen/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/search/SearchHelper.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/SearchHelper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/search/SearchHelper.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/SearchHelper.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/search/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/search/search.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/search.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/search/search.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/search.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/search/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.test.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/terminado.test.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.test.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/terminado/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/webLinks/webLinks.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/webLinks/webLinks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/webLinks/webLinks.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/webLinks/webLinks.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.test.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/addons/zmodem/zmodem.test.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.test.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/xterm.css" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/xterm.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/xterm.js" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/xterm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/dist/xterm.js.map" afterPath="$PROJECT_DIR$/src/packages/xterm/dist/xterm.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/gulpfile.js" afterPath="$PROJECT_DIR$/src/packages/xterm/gulpfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/jsdoc.json" afterPath="$PROJECT_DIR$/src/packages/xterm/jsdoc.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/package-lock.json" afterPath="$PROJECT_DIR$/src/packages/xterm/package-lock.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/AccessibilityManager.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/AccessibilityManager.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Buffer.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Buffer.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Buffer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Buffer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/BufferSet.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/BufferSet.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/BufferSet.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/BufferSet.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/CharWidth.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/CharWidth.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Charsets.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Charsets.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/CompositionHelper.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/CompositionHelper.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/CompositionHelper.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/CompositionHelper.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/EscapeSequences.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/EscapeSequences.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/EventEmitter.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/EventEmitter.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/EventEmitter.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/EventEmitter.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/InputHandler.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/InputHandler.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/InputHandler.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/InputHandler.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Linkifier.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Linkifier.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Linkifier.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Linkifier.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Parser.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Parser.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/SelectionManager.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/SelectionManager.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/SelectionManager.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/SelectionManager.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/SelectionModel.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/SelectionModel.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/SelectionModel.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/SelectionModel.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/SoundManager.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/SoundManager.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Strings.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Strings.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Terminal.integration.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Terminal.integration.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Terminal.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Terminal.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Terminal.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Terminal.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Types.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Types.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/Viewport.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/Viewport.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/attach/Interfaces.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/Interfaces.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/attach.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/attach/attach.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/attach.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/attach/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/attach/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fit/fit.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/fit.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fit/fit.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/fit.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fit/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fit/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/fullscreen.css" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/fullscreen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/fullscreen.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/fullscreen.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/fullscreen.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/fullscreen.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/fullscreen/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/search/Interfaces.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/Interfaces.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/search/SearchHelper.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/SearchHelper.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/search/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/search/search.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/search.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/search/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/Interfaces.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/Interfaces.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/terminado.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/terminado.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/terminado.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/terminado.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/terminado/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/webLinks.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/webLinks.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/webLinks/webLinks.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/webLinks.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/Interfaces.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/Interfaces.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/winptyCompat.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/winptyCompat.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/winptyCompat/winptyCompat.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/winptyCompat.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/package.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/zmodem.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/zmodem.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/addons/zmodem/zmodem.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/zmodem.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/handlers/AltClickHandler.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/handlers/AltClickHandler.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/handlers/Clipboard.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/handlers/Clipboard.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/handlers/Clipboard.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/handlers/Clipboard.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/input/MouseZoneManager.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/input/MouseZoneManager.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/input/Types.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/input/Types.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/BaseRenderLayer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/BaseRenderLayer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/ColorManager.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/ColorManager.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/ColorManager.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/ColorManager.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/CursorRenderLayer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/CursorRenderLayer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/GridCache.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/GridCache.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/GridCache.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/GridCache.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/LinkRenderLayer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/LinkRenderLayer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/Renderer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/Renderer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/SelectionRenderLayer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/SelectionRenderLayer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/TextRenderLayer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/TextRenderLayer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/Types.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/Types.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/atlas/CharAtlas.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/atlas/CharAtlas.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/atlas/CharAtlasUtils.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/atlas/CharAtlasUtils.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/renderer/atlas/Types.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/renderer/atlas/Types.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/shared/Types.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/shared/Types.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/shared/atlas/CharAtlasGenerator.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/shared/atlas/CharAtlasGenerator.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/shared/atlas/Types.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/shared/atlas/Types.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/shared/utils/Browser.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/shared/utils/Browser.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/CharMeasure.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/CharMeasure.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/CharMeasure.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/CharMeasure.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/CircularList.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/CircularList.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/CircularList.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/CircularList.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/Clone.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/Clone.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/Clone.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/Clone.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/Dom.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/Dom.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/MouseHelper.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/MouseHelper.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/MouseHelper.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/MouseHelper.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/RenderDebouncer.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/RenderDebouncer.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/ScreenDprMonitor.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/ScreenDprMonitor.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/utils/TestUtils.test.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/utils/TestUtils.test.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/xterm.css" afterPath="$PROJECT_DIR$/src/packages/xterm/src/xterm.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/src/xterm.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/src/xterm.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/tsconfig.json" afterPath="$PROJECT_DIR$/src/packages/xterm/tsconfig.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/tslint.json" afterPath="$PROJECT_DIR$/src/packages/xterm/tslint.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/typings/xterm.d.ts" afterPath="$PROJECT_DIR$/src/packages/xterm/typings/xterm.d.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/xterm/webpack.config.js" afterPath="$PROJECT_DIR$/src/packages/xterm/webpack.config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/LICENSE" afterPath="$PROJECT_DIR$/src/components/xterm/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/README.md" afterPath="$PROJECT_DIR$/src/components/xterm/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.test.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.test.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.test.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/attach/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.test.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/fit.test.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/fit.test.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fit/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fit/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.css" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.test.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/fullscreen.test.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/fullscreen.test.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/fullscreen/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/fullscreen/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/SearchHelper.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/SearchHelper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/SearchHelper.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/SearchHelper.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/search.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/search.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/search.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/search.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/search/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/search/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.test.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/terminado.test.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/terminado.test.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/terminado/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/terminado/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/webLinks/webLinks.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/webLinks/webLinks.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/webLinks/webLinks.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/webLinks/webLinks.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/winptyCompat/winptyCompat.test.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/winptyCompat/winptyCompat.test.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.test.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/addons/zmodem/zmodem.test.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/addons/zmodem/zmodem.test.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/xterm.css" afterPath="$PROJECT_DIR$/src/components/xterm/dist/xterm.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/xterm.js" afterPath="$PROJECT_DIR$/src/components/xterm/dist/xterm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/dist/xterm.js.map" afterPath="$PROJECT_DIR$/src/components/xterm/dist/xterm.js.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/gulpfile.js" afterPath="$PROJECT_DIR$/src/components/xterm/gulpfile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/jsdoc.json" afterPath="$PROJECT_DIR$/src/components/xterm/jsdoc.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/package-lock.json" afterPath="$PROJECT_DIR$/src/components/xterm/package-lock.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/AccessibilityManager.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/AccessibilityManager.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Buffer.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Buffer.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Buffer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Buffer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/BufferSet.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/BufferSet.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/BufferSet.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/BufferSet.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/CharWidth.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/CharWidth.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Charsets.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Charsets.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/CompositionHelper.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/CompositionHelper.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/CompositionHelper.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/CompositionHelper.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/EscapeSequences.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/EscapeSequences.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/EventEmitter.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/EventEmitter.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/EventEmitter.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/EventEmitter.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/InputHandler.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/InputHandler.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/InputHandler.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/InputHandler.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Linkifier.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Linkifier.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Linkifier.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Linkifier.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Parser.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Parser.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/SelectionManager.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/SelectionManager.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/SelectionManager.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/SelectionManager.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/SelectionModel.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/SelectionModel.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/SelectionModel.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/SelectionModel.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/SoundManager.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/SoundManager.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Strings.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Strings.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Terminal.integration.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Terminal.integration.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Terminal.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Terminal.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Terminal.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Terminal.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Types.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Types.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/Viewport.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/Viewport.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/Interfaces.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/Interfaces.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/attach.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/attach.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/attach.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/attach.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/attach/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/attach/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/fit.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/fit.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/fit.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/fit.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fit/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fit/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/fullscreen.css" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/fullscreen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/fullscreen.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/fullscreen.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/fullscreen.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/fullscreen.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/fullscreen/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/fullscreen/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/Interfaces.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/search/Interfaces.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/SearchHelper.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/search/SearchHelper.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/search/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/search.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/search/search.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/search/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/search/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/Interfaces.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/Interfaces.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/terminado.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/terminado.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/terminado.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/terminado.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/terminado/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/terminado/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/webLinks.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/webLinks.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/webLinks/webLinks.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/webLinks/webLinks.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/Interfaces.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/Interfaces.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/winptyCompat.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/winptyCompat.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/winptyCompat/winptyCompat.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/winptyCompat/winptyCompat.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/package.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/zmodem.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/zmodem.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/addons/zmodem/zmodem.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/addons/zmodem/zmodem.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/handlers/AltClickHandler.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/handlers/AltClickHandler.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/handlers/Clipboard.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/handlers/Clipboard.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/handlers/Clipboard.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/handlers/Clipboard.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/input/MouseZoneManager.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/input/MouseZoneManager.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/input/Types.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/input/Types.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/BaseRenderLayer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/BaseRenderLayer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/ColorManager.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/ColorManager.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/ColorManager.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/ColorManager.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/CursorRenderLayer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/CursorRenderLayer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/GridCache.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/GridCache.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/GridCache.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/GridCache.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/LinkRenderLayer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/LinkRenderLayer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/Renderer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/Renderer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/SelectionRenderLayer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/SelectionRenderLayer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/TextRenderLayer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/TextRenderLayer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/Types.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/Types.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/atlas/CharAtlas.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/atlas/CharAtlas.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/atlas/CharAtlasUtils.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/atlas/CharAtlasUtils.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/renderer/atlas/Types.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/renderer/atlas/Types.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/shared/Types.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/shared/Types.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/shared/atlas/CharAtlasGenerator.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/shared/atlas/CharAtlasGenerator.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/shared/atlas/Types.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/shared/atlas/Types.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/shared/utils/Browser.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/shared/utils/Browser.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/CharMeasure.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/CharMeasure.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/CharMeasure.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/CharMeasure.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/CircularList.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/CircularList.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/CircularList.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/CircularList.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/Clone.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/Clone.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/Clone.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/Clone.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/Dom.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/Dom.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/MouseHelper.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/MouseHelper.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/MouseHelper.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/MouseHelper.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/RenderDebouncer.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/RenderDebouncer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/ScreenDprMonitor.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/ScreenDprMonitor.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/utils/TestUtils.test.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/utils/TestUtils.test.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/xterm.css" afterPath="$PROJECT_DIR$/src/components/xterm/src/xterm.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/src/xterm.ts" afterPath="$PROJECT_DIR$/src/components/xterm/src/xterm.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/tsconfig.json" afterPath="$PROJECT_DIR$/src/components/xterm/tsconfig.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/tslint.json" afterPath="$PROJECT_DIR$/src/components/xterm/tslint.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/typings/xterm.d.ts" afterPath="$PROJECT_DIR$/src/components/xterm/typings/xterm.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/packages/xterm/webpack.config.js" afterPath="$PROJECT_DIR$/src/components/xterm/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Xterm.js" afterPath="$PROJECT_DIR$/src/components/Xterm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/terminal.js" afterPath="$PROJECT_DIR$/src/components/terminal.js" />
@@ -212,8 +212,8 @@
       <file leaf-file-name="terminal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/terminal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="76">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -232,11 +232,10 @@
       <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+            <state relative-caret-position="57">
+              <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding>
-                <element signature="e#57#88#0" expanded="true" />
-                <element signature="e#259#321#0" expanded="true" />
+                <element signature="e#262#314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -253,19 +252,9 @@
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/packages/xterm/package.json">
+        <entry file="file://$PROJECT_DIR$/src/components/xterm/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-11058">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/packages/xterm/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -409,6 +398,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kf-slate-editor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xterm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -429,6 +440,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/packages" />
     </key>
@@ -530,12 +542,12 @@
       <workItem from="1526622228283" duration="19053000" />
       <workItem from="1526715527652" duration="7221000" />
       <workItem from="1526802903192" duration="7361000" />
-      <workItem from="1526823966200" duration="4959000" />
+      <workItem from="1526823966200" duration="5960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61681000" />
+    <option name="totallyTimeSpent" value="62682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-370" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -579,8 +591,7 @@
         <state relative-caret-position="608">
           <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
-            <element signature="e#57#88#0" expanded="true" />
-            <element signature="e#259#321#0" expanded="true" />
+            <element signature="e#262#314#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -922,7 +933,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/xterm/lib/xterm.js">
+    <entry file="file://$PROJECT_DIR$/src/components/xterm/lib/xterm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -938,7 +949,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/xterm/lib/Terminal.js">
+    <entry file="file://$PROJECT_DIR$/src/components/xterm/lib/Terminal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="167" column="28" lean-forward="false" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="28" />
@@ -969,18 +980,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="e#9#40#0" expanded="true" />
-            <element signature="e#1774#2226#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/xterm/lib/addons/attach/attach.js">
+    <entry file="file://$PROJECT_DIR$/src/components/xterm/lib/addons/attach/attach.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="58" column="6" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="62" />
@@ -988,7 +988,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/xterm/dist/addons/attach/attach.js">
+    <entry file="file://$PROJECT_DIR$/src/components/xterm/dist/addons/attach/attach.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="60" column="62" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
@@ -996,29 +996,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/xterm/src/addons/attach/attach.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/xterm/src/addons/attach/attach.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2156">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/xterm/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/xterm/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11058">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,21 +1022,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/xterm/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/xterm/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11058">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="e#9#40#0" expanded="true" />
+            <element signature="e#1774#2226#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/terminal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Xterm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="97" column="47" lean-forward="false" selection-start-line="97" selection-start-column="47" selection-end-line="97" selection-end-column="47" />
+        <state relative-caret-position="57">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding>
-            <element signature="e#57#88#0" expanded="true" />
-            <element signature="e#259#321#0" expanded="true" />
+            <element signature="e#262#314#0" expanded="true" />
           </folding>
         </state>
       </provider>
