@@ -89,7 +89,8 @@ type Props = {
   value: Value,
   onChange: (change: Change) => void,
   serviceConfig?: any,
-  readOnly: any
+  readOnly: any,
+  currentElement: any
 }
 
 type State = {
@@ -122,7 +123,10 @@ const FixedToolbar = styled.div`
     padding-right: 40px;
   `)}
   z-index: 10;
-  width: ${props => props.isSticky ? '100%':'100%'}
+  width: ${props => {
+    return props.isSticky ? '100%':'100%'
+  }
+}
   margin-bottom: 30px;
 `
 
@@ -188,9 +192,14 @@ export default class EditorComponent extends React.Component<Props, State> {
   }
 
   handleScroll = () => {
+    if(this.props.readOnly){
+      return;
+    }
     var sticky = this.fixedToolbarRef.current.offsetTop;
+    let width = this.fixedToolbarRef.current.parentElement.offsetWidth+'px';
     if(window.pageYOffset >= sticky){
       this.setState({isSticky:true})
+      this.fixedToolbarRef.current.style.width = width;
     }else {
       this.setState({isSticky:false})
     }
@@ -209,12 +218,11 @@ export default class EditorComponent extends React.Component<Props, State> {
   render() {
     const {value, onChange, serviceConfig, readOnly, ...rest} = this.props;
     const {isFull,isSticky} = this.state;
-    console.log(readOnly);
     return (
       <Container isFull={isFull} isSticky={isSticky} readOnly={readOnly} {...rest}>
         {
           readOnly ? (<div></div>):(
-            <div ref={this.fixedToolbarRef}>
+            <div ref={this.fixedToolbarRef} id='123'>
               <FixedToolbar isSticky={isSticky}>
                 <Toolbar
                   value={value}
