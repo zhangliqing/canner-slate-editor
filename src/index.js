@@ -119,9 +119,10 @@ const FixedToolbar = styled.div`
   ${props => props.isSticky && (`
     position: fixed;
     top: 10px;
+    padding-right: 40px;
   `)}
   z-index: 10;
-  width: ${props => props.isSticky ? '800px':'100%'}
+  width: ${props => props.isSticky ? '100%':'100%'}
   margin-bottom: 30px;
 `
 
@@ -211,21 +212,20 @@ export default class EditorComponent extends React.Component<Props, State> {
     console.log(readOnly);
     return (
       <Container isFull={isFull} isSticky={isSticky} readOnly={readOnly} {...rest}>
+        {
+          readOnly ? (<div></div>):(
+            <div ref={this.fixedToolbarRef}>
+              <FixedToolbar isSticky={isSticky}>
+                <Toolbar
+                  value={value}
+                  serviceConfig={serviceConfig}
+                  onChange={onChange}
+                />
+              </FixedToolbar>
+            </div>
+          )
+        }
         <EditorContainer isFull={isFull} isSticky={isSticky} readOnly={readOnly}>
-          {
-            readOnly ? (<div></div>):(
-              <div ref={this.fixedToolbarRef}>
-                <FixedToolbar isSticky={isSticky}>
-                  <Toolbar
-                    value={value}
-                    serviceConfig={serviceConfig}
-                    onChange={onChange}
-                  />
-                </FixedToolbar>
-              </div>
-            )
-          }
-
           <CannerEditor value={value} onChange={onChange} readOnly={readOnly}/>
         </EditorContainer>
       </Container>

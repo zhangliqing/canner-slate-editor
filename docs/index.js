@@ -20,7 +20,7 @@ class DemoEditor extends React.Component<*, {value: Value}> {
       <div style={{margin: '20px'}}>
         <h1>Canner-slate-editor demo</h1>
         <CannerEditor
-          readOnly={true}
+          readOnly={false}
           value={value}
           onChange={onChange}
           serviceConfig={{
