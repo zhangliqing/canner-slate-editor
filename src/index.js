@@ -1,6 +1,5 @@
 // @flow
 import * as React from "react";
-import ReactDOM from "react-dom";
 import { Editor } from "slate-react";
 import type {Value, Change} from 'slate';
 import styled from 'styled-components';
@@ -36,9 +35,10 @@ import EditPrism from 'slate-prism'
 import EditCode from 'slate-edit-code'
 import TrailingBlock from 'slate-trailing-block'
 
-import {TerminalPlugin} from './components/terminal';
+import {TerminalPlugin} from './components/terminal/terminalIcon';
+import {CloudwarePlugin} from './components/cloudware/cloudwareIcon';
 
-import "prismjs/themes/prism.css"
+import "prismjs/themes/prism.css";
 
 // default value
 import {DEFAULT as DEFAULTLIST} from '@canner/slate-helper-block-list';
@@ -81,7 +81,8 @@ const plugins = [
   LinkPlugin(),
   ListPlugin(),
   VideoPlugin(),
-  TerminalPlugin()
+  TerminalPlugin(),
+  CloudwarePlugin()
 ];
 
 type Props = {
@@ -91,8 +92,7 @@ type Props = {
 }
 
 type State = {
-  isFull: boolean,
-  isSticky:boolean
+  isFull: boolean
 }
 
 const Container = styled.div`
@@ -114,9 +114,6 @@ const EditorContainer = styled.div`
   margin-top: ${props => props.isFull ? '60px' : '10px'};
 `
 
-//position: absolute;
-//top: 10px;
-//position: ${props => props.isSticky ? 'fixed':'absolute'};
 const FixedToolbar = styled.div`
   ${props => props.isSticky && (`
     position: fixed;
@@ -213,34 +210,15 @@ export default class EditorComponent extends React.Component<Props, State> {
 
     return (
       <Container isFull={isFull} isSticky={isSticky} {...rest}>
-        {
-
-          /*isFull ? (
-            <FixedToolbar>
+        <EditorContainer isFull={isFull} isSticky={isSticky}>
+          <div ref={this.fixedToolbarRef}>
+            <FixedToolbar isSticky={isSticky}>
               <Toolbar
-                isFull={true}
                 value={value}
                 serviceConfig={serviceConfig}
                 onChange={onChange}
-                goFull={this.goFull}/>
+              />
             </FixedToolbar>
-          ) : (
-            <Toolbar
-              serviceConfig={serviceConfig}
-              value={value}
-              onChange={onChange}
-              goFull={this.goFull}/>
-          )*/
-        }
-        <EditorContainer isFull={isFull} isSticky={isSticky}>
-          <div ref={this.fixedToolbarRef}>
-          <FixedToolbar isSticky={isSticky}>
-            <Toolbar
-              value={value}
-              serviceConfig={serviceConfig}
-              onChange={onChange}
-            />
-          </FixedToolbar>
           </div>
           <CannerEditor value={value} onChange={onChange}/>
         </EditorContainer>

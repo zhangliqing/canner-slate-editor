@@ -7,7 +7,7 @@ import { Terminal } from "kf-xterm";
 import SockJS from "sockjs-client/dist/sockjs.min";
 import $ from "jquery";
 
-//import * as Terminal from 'xterm/lib/xterm';
+//import * as TerminalIcon from 'xterm/lib/xterm';
 import * as attach from "kf-xterm/lib/addons/attach";
 import * as fit from "kf-xterm/lib/addons/fit/fit";
 import * as fullscreen from "kf-xterm/lib/addons/fullscreen/fullscreen";
@@ -47,12 +47,15 @@ class Xterm extends React.Component<any> {
       $.ajax({
         method: "GET",
         url:
-          "http://wss.kfcoding.com:30081/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
+          "http://terminal.wss.kfcoding.com:80/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
         //url: "http://120.132.94.141:9090/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
         success: res => {
-          socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + res.id);
+          res.substring(1,res.length-1);
+          let token = res.split("?")[1];
+          //socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + token);
+          socket = SockJS(res);
           socket.onopen = () => {
-            socket.send(JSON.stringify({ Op: "bind", SessionID: res.id }));
+            socket.send(JSON.stringify({ Op: "bind", SessionID: token }));
             socket.send(JSON.stringify({ Op: "resize", Cols: 80, Rows: 24 }));
             this.state.xterm.attach(socket);
             //this.xterm._initialized = true;

@@ -121,9 +121,9 @@
     react-resizable "^1.7.5"
     slate-edit-table "^0.15.0-alpha.4"
 
-"@canner/slate-editor-renderer@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-editor-renderer/-/slate-editor-renderer-1.2.8.tgz#d885d1516ae0b89aae366d8290c2fe289f6eca1c"
+"@canner/slate-editor-renderer@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-editor-renderer/-/slate-editor-renderer-1.2.9.tgz#aa7ecf6ef3a95952f1a04ba440aea0496b66d629"
   dependencies:
     "@canner/slate-helper-inline-adddata" "^0.1.2"
     emoji-mart "^2.5.0"
@@ -178,13 +178,13 @@
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@canner/slate-helper-mark-removeall/-/slate-helper-mark-removeall-0.1.3.tgz#429ffad70188eea77bba1b37d3d2eab32d916fad"
 
-"@canner/slate-icon-align@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-align/-/slate-icon-align-1.2.8.tgz#3e9d4577d57272336d3b612c1603c96099a75cdb"
+"@canner/slate-icon-align@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-align/-/slate-icon-align-1.2.9.tgz#19a790f50b6be3b14d6aa5105c4653d0a032cf34"
   dependencies:
     "@canner/slate-helper-block-adddata" "^0.1.5"
     "@canner/slate-helper-block-cleardatabykey" "^0.1.3"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
     "@canner/slate-util-have" "^0.1.2"
     is-hotkey "^0.1.2"
 
@@ -199,13 +199,13 @@
     lodash.omit "^4.5.0"
     slate-edit-blockquote "0.5.0"
 
-"@canner/slate-icon-blockquote@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-blockquote/-/slate-icon-blockquote-1.2.8.tgz#658b86c82f76d5045076e867c2bbb80da7e88be1"
+"@canner/slate-icon-blockquote@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-blockquote/-/slate-icon-blockquote-1.2.9.tgz#43ed58a44605429ba5a738371336f02a1c719840"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
     "@canner/slate-helper-block-quote" "^0.1.6"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
     is-hotkey "^0.1.2"
     lodash.omit "^4.5.0"
     slate-edit-blockquote "0.5.0"
@@ -218,20 +218,20 @@
     "@canner/slate-icon-shared" "^1.2.7"
     lodash.omit "^4.5.0"
 
-"@canner/slate-icon-bold@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-bold/-/slate-icon-bold-1.2.8.tgz#664d62fb7a066674ee3394f941257ccb52053bce"
+"@canner/slate-icon-bold@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-bold/-/slate-icon-bold-1.2.9.tgz#3f46ee7246b7ca139a0b0105b8bcccdcf80ffe95"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
     lodash.omit "^4.5.0"
 
-"@canner/slate-icon-clean@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-clean/-/slate-icon-clean-1.2.8.tgz#0b86e925cbf85273778e6440908f4f87af762df4"
+"@canner/slate-icon-clean@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-clean/-/slate-icon-clean-1.2.9.tgz#d03798cccabb4b3a21f03a858ced44d1277d0656"
   dependencies:
     "@canner/slate-helper-mark-removeall" "^0.1.2"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
 
 "@canner/slate-icon-code@^1.2.6":
   version "1.2.7"
@@ -240,12 +240,12 @@
     "@canner/slate-editor-renderer" "^1.2.7"
     "@canner/slate-icon-shared" "^1.2.7"
 
-"@canner/slate-icon-code@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-code/-/slate-icon-code-1.2.8.tgz#816a97eb7300d90f4fd8cb9e1669161bbf573522"
+"@canner/slate-icon-code@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-code/-/slate-icon-code-1.2.9.tgz#bc22e7beb4a6ac7ca8173a9cacb31b95e4bb73d0"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
 
 "@canner/slate-icon-codeblock@^1.2.6":
   version "1.2.7"
@@ -256,35 +256,35 @@
     "@canner/slate-util-have" "^0.1.2"
     prismjs "^1.13.0"
 
-"@canner/slate-icon-codeblock@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-codeblock/-/slate-icon-codeblock-1.2.8.tgz#896d3a277b855019a34c29abbe7ba31cde61786d"
+"@canner/slate-icon-codeblock@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-codeblock/-/slate-icon-codeblock-1.2.9.tgz#2cb1359fd8c30ab2d19c3ddbd4d8efd9859b1c69"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
     "@canner/slate-util-have" "^0.1.2"
     prismjs "^1.13.0"
 
-"@canner/slate-icon-fontbgcolor@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-fontbgcolor/-/slate-icon-fontbgcolor-1.2.8.tgz#137c8cbc184f934bae9d522ae75b8270f9f14aef"
+"@canner/slate-icon-fontbgcolor@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-fontbgcolor/-/slate-icon-fontbgcolor-1.2.9.tgz#6992112943d0ba43c8c8634ce6ff8b3a544c1d8f"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
     "@canner/slate-helper-mark-addoverwrite" "^0.1.2"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
     "@canner/slate-util-get" "^0.1.2"
     "@canner/slate-util-have" "^0.1.2"
     hex-rgb "^2.0.0"
     lodash.omit "^4.5.0"
     rc-color-picker "^1.2.6"
 
-"@canner/slate-icon-fontcolor@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-fontcolor/-/slate-icon-fontcolor-1.2.8.tgz#f68f614d75d3196500c03fba84315daee51775db"
+"@canner/slate-icon-fontcolor@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-fontcolor/-/slate-icon-fontcolor-1.2.9.tgz#51368b0ceab650bbc52d374072a9c2033926271b"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
     "@canner/slate-helper-mark-addoverwrite" "^0.1.2"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
     "@canner/slate-util-get" "^0.1.2"
     "@canner/slate-util-have" "^0.1.2"
     hex-rgb "^2.0.0"
@@ -300,12 +300,12 @@
     "@canner/slate-util-have" "^0.1.2"
     is-hotkey "^0.1.2"
 
-"@canner/slate-icon-header@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-header/-/slate-icon-header-1.2.8.tgz#9f95b0f3b80f15a1e9f570ccd2a7d9354b6f701f"
+"@canner/slate-icon-header@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-header/-/slate-icon-header-1.2.9.tgz#c91542e4e8bd4a852514612948fe5a682a7a6104"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
     "@canner/slate-util-have" "^0.1.2"
     is-hotkey "^0.1.2"
 
@@ -316,12 +316,12 @@
     "@canner/slate-editor-renderer" "^1.2.7"
     "@canner/slate-icon-shared" "^1.2.7"
 
-"@canner/slate-icon-hr@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-hr/-/slate-icon-hr-1.2.8.tgz#3a6bbaea1270272d21ea968529ab611d9ef50b65"
+"@canner/slate-icon-hr@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-hr/-/slate-icon-hr-1.2.9.tgz#c73393690d1608773fdee12d99e716f25d75f9b5"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
 
 "@canner/slate-icon-image@^1.2.6":
   version "1.2.7"
@@ -331,19 +331,19 @@
     "@canner/slate-editor-renderer" "^1.2.7"
     "@canner/slate-icon-shared" "^1.2.7"
 
-"@canner/slate-icon-image@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-image/-/slate-icon-image-1.2.8.tgz#2ab9c68899fe49828e743c89a046e72835210335"
+"@canner/slate-icon-image@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-image/-/slate-icon-image-1.2.9.tgz#d688f6866882692a924ac7cb6f2f50fd688d803b"
   dependencies:
     "@canner/image-upload" "^0.11.0"
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
 
-"@canner/slate-icon-indent@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-indent/-/slate-icon-indent-1.2.8.tgz#f79f4beb2f8512952eade5332389e5841cbc8492"
+"@canner/slate-icon-indent@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-indent/-/slate-icon-indent-1.2.9.tgz#2d0715e776fb2a3e9389632401450ee0e6138349"
   dependencies:
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
 
 "@canner/slate-icon-italic@^1.2.6", "@canner/slate-icon-italic@^1.2.7":
   version "1.2.7"
@@ -352,12 +352,12 @@
     "@canner/slate-editor-renderer" "^1.2.7"
     "@canner/slate-icon-shared" "^1.2.7"
 
-"@canner/slate-icon-italic@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-italic/-/slate-icon-italic-1.2.8.tgz#0bf84f27222b0d809bd8423fde18876b6d1aacf4"
+"@canner/slate-icon-italic@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-italic/-/slate-icon-italic-1.2.9.tgz#d01a99391b6bdea83e196831e3a5a155a680a3c0"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
 
 "@canner/slate-icon-link@^1.2.6":
   version "1.2.7"
@@ -368,13 +368,13 @@
     "@canner/slate-icon-shared" "^1.2.7"
     "@canner/slate-util-have" "^0.1.2"
 
-"@canner/slate-icon-link@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-link/-/slate-icon-link-1.2.8.tgz#8b681c61ced30c4b7d157e0559851425e571d50c"
+"@canner/slate-icon-link@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-link/-/slate-icon-link-1.2.9.tgz#3e5e67312fb18071a9793524c8315ac61180dafb"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
     "@canner/slate-helper-inline-links" "^0.1.3"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
     "@canner/slate-util-have" "^0.1.2"
 
 "@canner/slate-icon-list@^1.2.6":
@@ -386,20 +386,20 @@
     "@canner/slate-icon-shared" "^1.2.7"
     slate-edit-list "^0.11.2"
 
-"@canner/slate-icon-list@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-list/-/slate-icon-list-1.2.8.tgz#ab0aad8af3df0e068821bd94ddf5f141b45565f4"
+"@canner/slate-icon-list@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-list/-/slate-icon-list-1.2.9.tgz#4900406ce29d0961b29477063115b0059fcc8b6f"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
     "@canner/slate-helper-block-list" "^0.1.9"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
     slate-edit-list "^0.11.2"
 
-"@canner/slate-icon-redo@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-redo/-/slate-icon-redo-1.2.8.tgz#2c077106c724bfd90d63a837e4aef1cda0ad5a1f"
+"@canner/slate-icon-redo@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-redo/-/slate-icon-redo-1.2.9.tgz#c77e460dcc15eff84f247e531ef9780451f7530e"
   dependencies:
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
     is-hotkey "^0.1.2"
 
 "@canner/slate-icon-shared@^1.2.6", "@canner/slate-icon-shared@^1.2.7":
@@ -413,11 +413,11 @@
     lodash.omit "^4.5.0"
     quill-icons "^0.6.0"
 
-"@canner/slate-icon-shared@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-shared/-/slate-icon-shared-1.2.8.tgz#612bd579d4a72621a81c4e80a269d65bba169e6d"
+"@canner/slate-icon-shared@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-shared/-/slate-icon-shared-1.2.9.tgz#ad87fc5a4a7620d8d36501566f6401487ee5649b"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
     "@canner/slate-util-have" "^0.1.2"
     classnames "^2.2.5"
     is-hotkey "^0.1.2"
@@ -431,19 +431,19 @@
     "@canner/slate-editor-renderer" "^1.2.7"
     "@canner/slate-icon-shared" "^1.2.7"
 
-"@canner/slate-icon-strikethrough@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-strikethrough/-/slate-icon-strikethrough-1.2.8.tgz#5aba466605e21fd4fa25ec1d6e38ba1b44e69482"
+"@canner/slate-icon-strikethrough@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-strikethrough/-/slate-icon-strikethrough-1.2.9.tgz#626b4c70b09203682772453333a6bccd86fd90a6"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
 
-"@canner/slate-icon-table@^1.2.9-0":
-  version "1.2.9-0"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-table/-/slate-icon-table-1.2.9-0.tgz#3788f4cc605db4701c4a5b0d40d2e7aa83313bf4"
+"@canner/slate-icon-table@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-table/-/slate-icon-table-1.2.9.tgz#37bf2659bd237ce113d1b7dc864f666a6d80eae8"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
     create-table-picker "^0.1.2"
     lodash.omit "^4.5.0"
     slate-edit-table "^0.15.0-alpha.4"
@@ -455,26 +455,26 @@
     "@canner/slate-editor-renderer" "^1.2.7"
     "@canner/slate-icon-shared" "^1.2.7"
 
-"@canner/slate-icon-underline@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-underline/-/slate-icon-underline-1.2.8.tgz#5691a96a50b9537176610f56e66845b8274fe840"
+"@canner/slate-icon-underline@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-underline/-/slate-icon-underline-1.2.9.tgz#7ea7b4adac7fee9071f0a18f4a983e26fd518540"
   dependencies:
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
 
-"@canner/slate-icon-undo@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-undo/-/slate-icon-undo-1.2.8.tgz#21e9495fb3eee93d7a308f262364ab7695158840"
+"@canner/slate-icon-undo@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-undo/-/slate-icon-undo-1.2.9.tgz#a13dbe69947baf7b987f28cc6f8ece11b11208aa"
   dependencies:
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-icon-shared" "^1.2.9"
 
-"@canner/slate-icon-video@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@canner/slate-icon-video/-/slate-icon-video-1.2.8.tgz#9a5775b41ba6dc62cc1717dbc6e5c901450707df"
+"@canner/slate-icon-video@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@canner/slate-icon-video/-/slate-icon-video-1.2.9.tgz#5153cbba0d0f6a060dd04431190564b59cb10580"
   dependencies:
     "@canner/image-upload" "^0.10.0"
-    "@canner/slate-editor-renderer" "^1.2.8"
-    "@canner/slate-icon-shared" "^1.2.8"
+    "@canner/slate-editor-renderer" "^1.2.9"
+    "@canner/slate-icon-shared" "^1.2.9"
 
 "@canner/slate-util-get@^0.1.2", "@canner/slate-util-get@^0.1.3":
   version "0.1.3"
@@ -7842,9 +7842,9 @@ slate-edit-table@^0.15.0-alpha.4:
   version "0.15.0-alpha.4"
   resolved "https://registry.yarnpkg.com/slate-edit-table/-/slate-edit-table-0.15.0-alpha.4.tgz#d34362738ab30b980f3bd777ed9e2b8bb8499a6c"
 
-slate-md-editor@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/slate-md-editor/-/slate-md-editor-0.3.2.tgz#0dd634405a92d33e719d0bfd36936af9411fbdcc"
+slate-md-editor@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/slate-md-editor/-/slate-md-editor-0.3.3.tgz#e3a89d05071d83ffcd6a0dc702e8e2657c9484d7"
   dependencies:
     "@canner/slate-helper-block-list" "^0.1.12"
     "@canner/slate-helper-mark-removeall" "^0.1.3"

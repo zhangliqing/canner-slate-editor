@@ -20,8 +20,9 @@ import {OlList, UlList} from '@canner/slate-icon-list';
 import Undo from '@canner/slate-icon-undo';
 import Redo from '@canner/slate-icon-redo';
 import Video from '@canner/slate-icon-video';
-import {Terminal} from './components/terminal';
-import './fontawesome.min.css';
+import {TerminalIcon} from './components/terminal/terminalIcon';
+import {CloudwareIcon} from './components/cloudware/cloudwareIcon';
+
 
 type Props = {
   value: Value,
@@ -85,9 +86,9 @@ export default class Toolbar extends React.Component<Props> {
       FontColor,
       FontBgColor,
       'seperator',
-      'Terminal'
+      'TerminalIcon',
+      'CloudwareIcon'
     ]
-    //'fullScreen'
 
     return (
       <Container>
@@ -102,18 +103,31 @@ export default class Toolbar extends React.Component<Props> {
               </IconContainer>
             )
           }
-          if(Type === 'Terminal'){
+          if(Type === 'TerminalIcon'){
             return(
               <IconContainer
-              key={i}>
-                <Terminal
-                  className="__canner-editor_topToolbarItem fa-stack fa-lg"
+                key={i}>
+                <TerminalIcon
+                  className="__canner-editor_topToolbarItem"
                   change={value.change()}
                   onChange={onChange}
                 />
               </IconContainer>
             )
           }
+          if(Type === 'CloudwareIcon'){
+            return(
+              <IconContainer
+                key={i}>
+                <CloudwareIcon
+                  className="__canner-editor_topToolbarItem"
+                  change={value.change()}
+                  onChange={onChange}
+                />
+              </IconContainer>
+            )
+          }
+
           // special plugin
           if (Type === 'image') {
             Type = Image
@@ -148,4 +162,3 @@ export default class Toolbar extends React.Component<Props> {
     );
   }
 }
-

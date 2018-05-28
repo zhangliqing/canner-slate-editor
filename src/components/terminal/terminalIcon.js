@@ -5,22 +5,22 @@
 import * as React from "react";
 import Xterm from "./Xterm";
 import "kf-xterm/lib/xterm.css";
-import "../fontawesome.min.css";
+import FaTerminal from "react-icons/lib/fa/terminal";
 
 export const TerminalPlugin = () => {
   return {
     renderNode: props => {
-      if (props.node.type === "Terminal") return <Xterm />;
+      if (props.node.type === "TerminalIcon") return <Xterm />;
     }
   };
 };
 
-export class Terminal extends React.Component<any> {
+export class TerminalIcon extends React.Component<any> {
   typeName: string;
   constructor(props: any) {
     super(props);
 
-    this.typeName = this.props.type || "Terminal";
+    this.typeName = this.props.type || "TerminalIcon";
   }
 
   onClick = (e: Event) => {
@@ -42,14 +42,12 @@ export class Terminal extends React.Component<any> {
 
     return (
       <span
-        style={{ margin: "0px 0px 0px 5px" }}
-        className={this.props.className}
         onClick={onClick}
         height="18"
         width="18"
         viewBox="0 0 48 48"
       >
-        <i className="fa fa-terminal fa-stack-1x" />
+        <FaTerminal className={this.props.className} />
       </span>
     );
   }
