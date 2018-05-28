@@ -88,7 +88,8 @@ const plugins = [
 type Props = {
   value: Value,
   onChange: (change: Change) => void,
-  serviceConfig?: any
+  serviceConfig?: any,
+  readOnly: any
 }
 
 type State = {
@@ -205,22 +206,27 @@ export default class EditorComponent extends React.Component<Props, State> {
   }
 
   render() {
-    const {value, onChange, serviceConfig, ...rest} = this.props;
+    const {value, onChange, serviceConfig, readOnly, ...rest} = this.props;
     const {isFull,isSticky} = this.state;
-
+    console.log(readOnly);
     return (
-      <Container isFull={isFull} isSticky={isSticky} {...rest}>
-        <EditorContainer isFull={isFull} isSticky={isSticky}>
-          <div ref={this.fixedToolbarRef}>
-            <FixedToolbar isSticky={isSticky}>
-              <Toolbar
-                value={value}
-                serviceConfig={serviceConfig}
-                onChange={onChange}
-              />
-            </FixedToolbar>
-          </div>
-          <CannerEditor value={value} onChange={onChange}/>
+      <Container isFull={isFull} isSticky={isSticky} readOnly={readOnly} {...rest}>
+        <EditorContainer isFull={isFull} isSticky={isSticky} readOnly={readOnly}>
+          {
+            readOnly ? (<div></div>):(
+              <div ref={this.fixedToolbarRef}>
+                <FixedToolbar isSticky={isSticky}>
+                  <Toolbar
+                    value={value}
+                    serviceConfig={serviceConfig}
+                    onChange={onChange}
+                  />
+                </FixedToolbar>
+              </div>
+            )
+          }
+
+          <CannerEditor value={value} onChange={onChange} readOnly={readOnly}/>
         </EditorContainer>
       </Container>
     );
@@ -242,6 +248,7 @@ class CannerEditor extends React.Component<Props> {
     return (
       <Editor 
         className="markdown-body"
+        readOnly={this.props.readOnly}
         value={value}
         onChange={onChange}
         plugins={plugins}
