@@ -19,7 +19,6 @@ import {FontBgColorPlugin} from '@canner/slate-icon-fontbgcolor';
 import {FontColorPlugin} from '@canner/slate-icon-fontcolor';
 import {Header1, Header2, HeaderOnePlugin, HeaderTwoPlugin, HeaderThreePlugin} from '@canner/slate-icon-header';
 import Hr, {HrPlugin} from '@canner/slate-icon-hr';
-//import {ImagePlugin} from '@canner/slate-icon-image';
 import Italic, {ItalicPlugin} from '@canner/slate-icon-italic';
 import {LinkPlugin} from '@canner/slate-icon-link';
 import {OlList, UlList, ListPlugin} from '@canner/slate-icon-list';
