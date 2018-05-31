@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3d02182b-ff71-44a0-8050-f2bc46e79667" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/static/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menuToolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/menuToolbar.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +24,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
+            <state relative-caret-position="418">
               <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="e#9#35#0" expanded="true" />
@@ -29,15 +33,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="195" column="13" lean-forward="true" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+            <state relative-caret-position="392">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#2133#2944#0" />
-                <element signature="e#3744#4051#0" />
-                <element signature="e#4076#4446#0" />
+                <element signature="e#9#40#0" expanded="true" />
+                <element signature="e#1071#1134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,34 +49,48 @@
       <file leaf-file-name="menuToolbar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+            <state relative-caret-position="45">
+              <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
               <folding>
                 <element signature="e#9#40#0" expanded="true" />
-                <element signature="e#1761#4692#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cloudware.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/cloudware/Cloudware.js">
+      <file leaf-file-name="imageIcon.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/image/imageIcon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            <state relative-caret-position="456">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="n#!!block;n#constructor#0;n#Cloudware#0" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#57#88#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/terminal/Xterm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="416">
+              <caret line="100" column="37" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Image.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/image/Image.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="48" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,12 +143,17 @@
         <option value="$PROJECT_DIR$/packages/xterm/lib/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/packages/xterm/dist/addons/attach/attach.js" />
         <option value="$PROJECT_DIR$/src/components/Xterm.js" />
-        <option value="$PROJECT_DIR$/src/menuToolbar.js" />
         <option value="$PROJECT_DIR$/src/components/terminal.js" />
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/docs/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Image/ImageIcon.js" />
+        <option value="$PROJECT_DIR$/src/components/Image/imageIcon.js" />
+        <option value="$PROJECT_DIR$/src/components/Image/Image.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/image/imageIcon.js" />
+        <option value="$PROJECT_DIR$/src/menuToolbar.js" />
+        <option value="$PROJECT_DIR$/src/components/image/Image.js" />
       </list>
     </option>
   </component>
@@ -157,9 +179,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-121" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -169,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,13 +222,19 @@
               <item name="canner-slate-editor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudware" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canner-slate-editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canner-slate-editor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="terminal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,28 +304,30 @@
       <workItem from="1526878588041" duration="4042000" />
       <workItem from="1527473115169" duration="2586000" />
       <workItem from="1527487087508" duration="712000" />
-      <workItem from="1527487855942" duration="6746000" />
+      <workItem from="1527487855942" duration="7464000" />
+      <workItem from="1527571398268" duration="11155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77941000" />
+    <option name="totallyTimeSpent" value="89814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="-121" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1985703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13164824" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2937931" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2557214" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -302,7 +335,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,35 +349,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/@canner/slate-icon-header/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@canner/slate-icon-header/src/header1.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@canner/slate-icon-header/src/headerDecorator.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@canner/slate-icon-header/src/header3.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@canner/slate-constant/src/blocks.js" />
-    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="102" column="27" lean-forward="true" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
-          <folding>
-            <element signature="e#9#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fullScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -434,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/cloudware/Cloudware.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="1204">
           <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -443,20 +446,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/@canner/slate-icon-codeblock/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="1140">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
             <element signature="e#9#40#0" expanded="true" />
-            <element signature="e#1761#4692#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@canner/image-upload/src/EditImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@canner/image-upload/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@canner/slate-icon-image/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/terminal/terminalIcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="20" selection-end-line="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
+        <state relative-caret-position="418">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
             <element signature="e#9#35#0" expanded="true" />
@@ -466,12 +495,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="195" column="13" lean-forward="true" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+        <state relative-caret-position="392">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <element signature="e#2133#2944#0" />
-            <element signature="e#3744#4051#0" />
-            <element signature="e#4076#4446#0" />
+            <element signature="e#9#40#0" expanded="true" />
+            <element signature="e#1071#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/terminal/Xterm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+          <folding>
+            <element signature="e#9#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/image/imageIcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#57#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/image/Image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

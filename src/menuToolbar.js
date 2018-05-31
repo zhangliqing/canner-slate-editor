@@ -22,6 +22,7 @@ import Redo from '@canner/slate-icon-redo';
 import Video from '@canner/slate-icon-video';
 import {TerminalIcon} from './components/terminal/terminalIcon';
 import {CloudwareIcon} from './components/cloudware/cloudwareIcon';
+import {ImageIcon} from './components/image/imageIcon';
 
 
 type Props = {
@@ -78,17 +79,18 @@ export default class Toolbar extends React.Component<Props> {
       UlList,
       'seperator',
       Link,
-      'image',
-      Video,
       CodeBlock,
       Table,
-      'seperator',
-      FontColor,
-      FontBgColor,
+      'ImageIcon',
       'seperator',
       'TerminalIcon',
-      'CloudwareIcon'
+      'CloudwareIcon',
     ]
+    /*
+      Video,
+      FontColor,
+      FontBgColor,
+      'seperator',*/
 
     return (
       <Container>
@@ -120,6 +122,18 @@ export default class Toolbar extends React.Component<Props> {
               <IconContainer
                 key={i}>
                 <CloudwareIcon
+                  className="__canner-editor_topToolbarItem"
+                  change={value.change()}
+                  onChange={onChange}
+                />
+              </IconContainer>
+            )
+          }
+          if(Type === 'ImageIcon'){
+            return(
+              <IconContainer
+                key={i}>
+                <ImageIcon
                   className="__canner-editor_topToolbarItem"
                   change={value.change()}
                   onChange={onChange}
