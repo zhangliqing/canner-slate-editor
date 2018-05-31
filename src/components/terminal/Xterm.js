@@ -42,28 +42,26 @@ class Xterm extends React.Component<any> {
       this.state.xterm.winptyCompatInit();
       this.state.xterm.webLinksInit();
       this.state.xterm.fit();
-      this.state.xterm.focus();
+      //this.state.xterm.focus();
       var socket;
       $.ajax({
         method: "GET",
         url:
-          "http://terminal.wss.kfcoding.com:80/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
-        //url: "http://120.132.94.141:9090/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
+          "http://api.kfcoding.com/cloudware/startContainer?imageName=nginx&type=1",
+          //"http://api.kfcoding.com/startContainer?imageName=nginx&type=1",
+          //"http://terminal.wss.kfcoding.com:80/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
         success: res => {
-          res.substring(1,res.length-1);
-          let token = res.split("?")[1];
-          //socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + token);
-          socket = SockJS(res);
+          //res.substring(1,res.length-1);
+          let token = res.result.WsAddr.split("?")[1];
+          socket = SockJS(res.result.WsAddr);   //socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + token);
           socket.onopen = () => {
             socket.send(JSON.stringify({ Op: "bind", SessionID: token }));
             socket.send(JSON.stringify({ Op: "resize", Cols: 80, Rows: 24 }));
             this.state.xterm.attach(socket);
             //this.xterm._initialized = true;
           };
-          /*socket.onmessage = function(e) {
-           console.log("message", e.data);
-           };*/
-        }
+        },
+        timeout:3000
       });
     });
   }

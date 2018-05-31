@@ -32,9 +32,9 @@ export class TerminalIcon extends React.Component<any> {
         type: this.typeName,
         isVoid: true
       })
-    );
-    //.focus()
-    //.collapseToStartOfNextBlock()
+    )
+    /*.focus()
+    .collapseToStartOfNextBlock()*/
   };
 
   render() {

@@ -17,7 +17,7 @@ class Image extends React.Component<any> {
 
     imageFiles.forEach(file => {
       new ImageCompressor(file, {
-        quality: 0,
+        quality: 0.6,
         success: (result) => {
           var reader = new FileReader();
           reader.readAsDataURL(result);

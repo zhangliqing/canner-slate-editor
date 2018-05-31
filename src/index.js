@@ -243,7 +243,7 @@ export default class EditorComponent extends React.Component<Props, State> {
 }
 
 @toolbar(toolbarOptions)
-@sidebar(sidebarOptions)
+//@sidebar(sidebarOptions)
 class CannerEditor extends React.Component<Props> {
 
   shouldComponentUpdate(nextProps: Props) {
