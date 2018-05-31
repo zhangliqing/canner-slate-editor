@@ -60,13 +60,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-382">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="400">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menuToolbar.js.flow" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/menuToolbar.js.flow">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Xterm.js" pinned="false" current-in-tab="false">
@@ -204,6 +209,17 @@
               <item name="canner-slate-editor" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="canner-slate-editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canner-slate-editor" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canner-slate-editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canner-slate-editor" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -278,18 +294,17 @@
       <workItem from="1527473115169" duration="2586000" />
       <workItem from="1527487087508" duration="712000" />
       <workItem from="1527487855942" duration="7464000" />
-      <workItem from="1527571398268" duration="11638000" />
+      <workItem from="1527571398268" duration="11882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90297000" />
+    <option name="totallyTimeSpent" value="90541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-121" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13164824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13164824" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -298,7 +313,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4039801" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4039801" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -322,13 +337,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/menuToolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -503,10 +511,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="400">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/menuToolbar.js.flow">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
