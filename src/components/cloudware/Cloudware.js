@@ -1,6 +1,6 @@
 import React from 'react';
 import Window from "./Window";
-
+//import ClickOutHandler from 'react-clickout-handler';
 function mapKey(keyCode) {
   var xkm = [[65406, 0, 65406, 0, 0, 0, 0], [65307, 0, 65307, 0, 0, 0, 0], [49, 33, 49, 33, 0, 0, 0], [50, 64, 50, 64, 0, 0, 0], [51, 35, 51, 35, 0, 0, 0], [52, 36, 52, 36, 0, 0, 0],
     [53, 37, 53, 37, 0, 0, 0], [54, 94, 54, 94, 0, 0, 0], [55, 38, 55, 38, 0, 0, 0], [56, 42, 56, 42, 0, 0, 0], [57, 40, 57, 40, 0, 0, 0], [48, 41, 48, 41, 0, 0, 0],
@@ -101,16 +101,24 @@ class Cloudware extends React.Component {
 
   constructor(props) {
     super(props);
-    var self = this;
-
     this.container = React.createRef();
-
     this.state = {
-      windows: []
+      windows: [],
+      isActive: false
     };
+  }
 
+  _findWindow(wid) {
+    for (var i in this.state.windows) {
+      if (this.state.windows[i].wid == wid) {
+        return this.state.windows[i];
+      }
+    }
+    return null;
+  }
+  componentDidMount() {
     var ws = new WebSocket("ws://temp.wss.kfcoding.com/");
-
+    var self = this;
     ws.binaryType = 'arraybuffer';
     ws.onopen = function () {
       console.log(ws);
@@ -148,6 +156,10 @@ class Cloudware extends React.Component {
           ws.send(buf);
       };
       document.onkeydown = function (e) {
+        /*if (!this.state.isActive) {
+          console.log(this.state.isActive);
+          return;
+        }*/
         if (e.keyCode == 9 || e.keyCode == 32) {  //tab pressed
           e.preventDefault(); // stops its action
         }
@@ -266,15 +278,21 @@ class Cloudware extends React.Component {
       }
     }
   }
-
-  _findWindow(wid) {
-    for (var i in this.state.windows) {
-      if (this.state.windows[i].wid == wid) {
-        return this.state.windows[i];
-      }
-    }
-    return null;
+  handleClickOut = () => {
+    this.state.isActive = false;
+    return;
+    this.setState({
+      isActive: false
+    });
   }
+  handleOnClick = () => {
+    this.state.isActive = true;
+    return;
+    /*this.setState({
+      isActive: true
+    });*/
+  }
+
 
   render() {
     var windows = this.state.windows.map(window => {
@@ -285,9 +303,10 @@ class Cloudware extends React.Component {
         />
       )
     });
+    {/*<ClickOutHandler  onClickOut={this.handleClickOut} onClick={this.handleOnClick}>
+      </ClickOutHandler>*/}
     return (
-      <div style={{position: 'relative'}} ref={this.container}>
-        123132
+      <div style={{position: 'relative', width: '100%', height: '800px'}} ref={this.container}>
         {windows}
       </div>
     )

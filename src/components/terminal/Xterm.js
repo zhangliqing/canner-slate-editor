@@ -47,13 +47,14 @@ class Xterm extends React.Component<any> {
       $.ajax({
         method: "GET",
         url:
-          "http://api.kfcoding.com/cloudware/startContainer?imageName=nginx&type=1",
+          //"http://api.kfcoding.com/cloudware/startContainer?imageName=nginx&type=1",
           //"http://api.kfcoding.com/startContainer?imageName=nginx&type=1",
           //"http://terminal.wss.kfcoding.com:80/api/v1/pod/kfcoding-alpha/shell-demo/shell/nginx",
+          "http://terminal.wss.kfcoding.com/api/v1/pod/kfcoding-alpha/terminal-1/shell/application",
         success: res => {
-          //res.substring(1,res.length-1);
-          let token = res.result.WsAddr.split("?")[1];
-          socket = SockJS(res.result.WsAddr);   //socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + token);
+          res.substring(1,res.length-1);
+          let token = res.split("?")[1];
+          socket = SockJS(res);   //socket = SockJS("http://wss.kfcoding.com:30081/api/sockjs?" + token);
           socket.onopen = () => {
             socket.send(JSON.stringify({ Op: "bind", SessionID: token }));
             socket.send(JSON.stringify({ Op: "resize", Cols: 80, Rows: 24 }));
